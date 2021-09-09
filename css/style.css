@@ -1,0 +1,78 @@
+.navbar{
+	position: fixed;
+	z-index: 99;
+	padding: 25px 25px 25px 25px;
+	text-decoration: none;
+	margin: -10px 0 0 -10px;
+	height: 8%;
+	width: 100%;
+	/* background-color: violet; */
+}
+.menu-bar{
+	display: inline-flex;
+}
+.logo img{
+	max-height: 12vh;
+	max-width: 35vh;
+	margin-top: 12px;
+	margin-left: 40px;
+}
+
+.menu li {
+	display: inline-block;
+	justify-content: space-between;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 200;
+}
+.menu{
+	margin-left: 220px;
+}
+
+
+li a{
+	padding: 15px;
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+	transition: all 0.6s ease;
+}
+li a:hover {
+	color: rgb(17, 192, 31);
+	cursor: pointer;
+	transition: all 0.6s ease;
+}
+.btn {
+		background-color: rgb(13, 151, 25);
+		color: white;
+		padding: 12px 12px 12px 12px;
+		font-size: 20px;
+		border-radius: 10px;
+		text-decoration: none;
+		border: 3px solid rgb(13, 151, 25);
+		font-weight: 400;
+		transition: all 0.3s ease;
+		margin-left: 25px;
+		margin-top: 5px;
+	}
+.btn:hover {
+		cursor: pointer;
+		background-color: black;
+		border: 3px solid rgb(13, 151, 25);
+		color: rgb(13, 151, 25);
+		font-weight: 400;
+		transition: all 0.6s ease;
+	}
+
+	.banner {
+		background: url("/images/banner.gif");
+		text-decoration: none;
+		padding-top: 300px;
+		padding-left: 13vh;
+		overflow-x:clip;
+		margin: -8px;
+		background-size: cover;
+		background-attachment: fixed;
+		height: 60vh;
+		/* transition: all 0.6s ease; */
+	}
