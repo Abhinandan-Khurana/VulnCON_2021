@@ -65,7 +65,7 @@ li a:hover {
 	}
 
 	.banner {
-		background: url("/images/banner.gif");
+		background: url("./images/banner.gif");
 		text-decoration: none;
 		padding-top: 300px;
 		padding-left: 13vh;
