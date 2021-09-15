@@ -1,4 +1,6 @@
-
+html {
+  scroll-behavior: smooth;
+}
 .navbar {
   position: fixed;
   z-index: 99;
@@ -7,6 +9,7 @@
   margin: -10px 0 0 -10px;
   height: 8%;
   width: 100%;
+  transition: all 500ms ease-in;
   /* background-color: violet; */
 }
 .menu-bar {
@@ -122,12 +125,10 @@ li a:hover {
     background-position: 0 0;
   }
 }
-body
-{
-  background: url("/images/banner.gif") repeat center;
-}
+
+
 .banner {
- 
+  background: url("/images/banner.gif") no-repeat center fixed;
   text-decoration: none;
   padding-top: 300px;
   padding-left: 13vh;
@@ -141,54 +142,46 @@ body
 
 /* banner section -->  */
 
-.banner-content h1{
-	font-size: 5vw;
-	color:#00ffd5;
-	text-align: center;
-	text-transform: capitalize;
-	line-height: 5px;
-	margin-right: 90px;
+.banner-content h1 {
+  font-size: 5vw;
+  color: #00ffd5;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 5px;
+  margin-right: 90px;
 }
-.banner-content p{
-	font-size: 5vw;
-	color:#e2f3f5;
-	text-align: center;
-	text-transform: capitalize;
-	line-height: 15px;
-	margin-right: 90px;
+.banner-content p {
+  font-size: 5vw;
+  color: #e2f3f5;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 15px;
+  margin-right: 90px;
 }
-.about
-{
+.about {
   font-size: 30px;
-    font-weight: bolder;
-    color: #ff00b3;
-   text-align: center;
-   font-family:sans-serif;
-  
-   /*text-decoration-line:underline ;
+  font-weight: bolder;
+  color: #ff00b3;
+  text-align: center;
+  font-family: sans-serif;
+
+  /*text-decoration-line:underline ;
    text-decoration-thickness: 12%;
    text-decoration-color: gray;*/
-    
 }
-.nuke
-{
+.nuke {
   display: block;
- 
 }
-.About
-{
+.About {
   margin-top: -30px;
-  
 }
 
-div .head
-{
+div .head {
   color: #ff00b3;
   font-family: sans-serif;
   font-size: 30px;
 }
-div .tuned
-{
+div .tuned {
   font-size: 16px;
   font-family: cursive;
   color: #ff00b3;

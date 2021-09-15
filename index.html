@@ -4,12 +4,21 @@
     <meta charset="UTF-8" />
     <title>VulnCON 2021</title>
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="js/index.js"></script>
   </head>
   <body>
     <section>
     <!-- Navbar -->
-    <div class="navbar">
-      <div class="menu-bar">
+    <div class="navbar" id="navbar" >
+      <div class="menu-bar" >
         <div class="logo">
           <a href="https://noobarmy.org/"
             ><img src="./images/nav-logo-2.png"
@@ -34,7 +43,7 @@
   </section>
     <!-- Banner Section -->
 
-    <section>
+    <section id="Home">
       <div class="banner">
         <div class="banner-content">
           <h1>VULNCON 2021</h1>
@@ -43,7 +52,11 @@
         </div>
       </div>
     </section>
+
+    <!-- About section -->
     <section id="About">
+      <div class="contact_nav_block"></div>
+    
       <h3 class="about">—About Vulncon—</h3>
       <div class="nuke">
         <div style="text-align: center;">
@@ -60,5 +73,57 @@
      
     </div>
     </section>
+
+
+
+
+      <!-- contat form -->
+      <section class="contact_section" id="Contact">
+        <div class="contact_nav_block"></div>
+        <div class="contact_header">CONTACT US</div>
+        <div class="contact_form_body">
+          <div class="contact_form">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input_field"
+              placeholder="NAME"
+            />
+  
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="input_field"
+              placeholder="EMAIL"
+            />
+            <textarea
+              name="message"
+              id="message"
+              rows="10"
+              placeholder="MESSAGE"
+            ></textarea>
+            <button class="glow-on-hover send_btn ">SEND</button>
+          </div>
+          <div class="contact_right">
+            <div class="contact_right_group">
+              <div class="fas ">Website</div>
+              <div class="contact_right_item">noobArmy.com</div>
+            </div>
+            <div class="contact_right_group">
+              <div class="fas">Phone no</div>
+  
+              <div class="contact_right_item">1234567890</div>
+            </div>
+            <div class="contact_right_group">
+              <div class="fas">Email</div>
+  
+              <div class="contact_right_item">noobarmy@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
   </body>
 </html>

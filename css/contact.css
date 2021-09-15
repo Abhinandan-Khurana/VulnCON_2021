@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+.contact_section {
+  background: black ;
+  /* opacity: 0.4; */
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.contact_nav_block{
+height: 70px;
+width: 100vw;
+}
+
+input,
+textarea {
+  background: transparent;
+  padding: 5px;
+  margin: 10px 0;
+  color: #fafafa;
+  font-size: 18px;
+}
+::placeholder {
+  color: rgba(169, 175, 194, 0.781);
+}
+
+.contact_header {
+  font-family: "Oswald";
+  text-align: center;
+  font-size: 54px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.contact_form_body {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 840px;
+}
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+input {
+  width: 96.5%;
+}
+.send_btn {
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+  width: 100%;
+}
+.send_btn:hover {
+  color: #fff;
+  background: #f0c;
+}
+.contact_right {
+  width: 250px;
+}
+
+.contact_right_group {
+  margin: 5px;
+  padding: 10px 0;
+}
+.contact_right_item {
+  color: #fff;
+  font-size: 1.3rem;
+}
+.fas {
+  color: #a7a7a7;
+  padding-bottom: 5px;
+}
+
+@media (max-width: 850px) {
+  .contact_form_body {
+    flex-direction: column;
+  }
+  .contact_form {
+    margin: 0 auto;
+  }
+  .contact_right {
+    width: 300px;
+    margin: 30px auto;
+  }
+  .contact_right_group {
+    display: flex;
+  }
+  .fas {
+    padding: 5px 2rem 0 0;
+  }
+}
