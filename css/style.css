@@ -170,7 +170,8 @@ li a:hover {
   25% {
     transform: translateY(-30px);
   }
-  50%,100% {
+  50%,
+  100% {
     transform: translateY(0px);
   }
 }
@@ -202,4 +203,39 @@ div .tuned {
   font-size: 16px;
   font-family: cursive;
   color: #ff00b3;
+}
+
+/* Sponsor section CSS */
+.sponsor-heading {
+  text-align: center;
+  justify-content: center;
+  font-size: 3.5em;
+  color: #9c1de7;
+}
+body {
+  background: navy;
+}
+.section-padding {
+  padding: 60px 0;
+}
+.brand-carousel {
+  background: navy;
+  margin-top: 3%;
+  margin-right: 30px;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: #000 !important;
 }
