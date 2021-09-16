@@ -176,12 +176,15 @@ li a:hover {
   }
 }
 
+#About{
+  height: 100vh;
+}
 .about {
   font-size: 30px;
   font-weight: bolder;
   color: #ff00b3;
   text-align: center;
-  font-family: sans-serif;
+  font-family: sans-serif; 
 
   /*text-decoration-line:underline ;
    text-decoration-thickness: 12%;
