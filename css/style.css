@@ -126,7 +126,6 @@ li a:hover {
   }
 }
 
-
 .banner {
   background: url("/images/banner.gif") no-repeat center fixed;
   text-decoration: none;
@@ -155,9 +154,27 @@ li a:hover {
   color: #e2f3f5;
   text-align: center;
   text-transform: capitalize;
-  line-height: 15px;
+  line-height: 20px;
   margin-right: 90px;
 }
+.banner-content p span {
+  position: relative;
+  display: inline-block;
+  animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
+
 .about {
   font-size: 30px;
   font-weight: bolder;

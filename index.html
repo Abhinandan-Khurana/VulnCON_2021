@@ -47,7 +47,7 @@
       <div class="banner">
         <div class="banner-content">
           <h1>VULNCON 2021</h1>
-          <p>Explore.Learn.Implement</p>
+          <p class="text">Explore.Learn.Implement</p>
         </div>
         </div>
       </div>
@@ -125,5 +125,13 @@
         </div>
       </section>
 
+      <script>
+        const text = document.querySelector('.text');
+text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>")
+const element = document.querySelectorAll('span');
+for (let i=0; i<element.length;i++){
+  element[i].style.animationDelay = i*0.05 + 's'; 
+}
+      </script>
   </body>
 </html>
