@@ -9,5 +9,21 @@ function onScrollFixNav() {
     navbar.style.background = "transparent";
     navbar.style.height = "8%";
   }
-  console.log(window.scrollY);
+}
+console.log(document.getElementById("openMenu"))
+document.getElementById("openMenu").addEventListener('click',OpenMenu);
+function OpenMenu(){
+  var responsive = document.getElementById("reponsive")
+  responsive.classList.remove("responsive_hide");
+  responsive.classList.add("responsive");
+  console.log("clicked")
+}
+
+document.getElementById("closeMenu").addEventListener('click',closeMenu);
+document.getElementById("close_").addEventListener('click',closeMenu);
+
+function closeMenu(){
+  var responsive = document.getElementById("reponsive")
+  responsive.classList.remove("responsive")
+  responsive.classList.add("responsive_hide")
 }

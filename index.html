@@ -20,9 +20,8 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- <script src="custom.js"></script> -->
 
-
-    <script src="js/index.js"></script>
   </head>
+
   <body>
     <section>
     <!-- Navbar -->
@@ -41,17 +40,37 @@
             <li><a href="#Schedule">Schedule</a></li>
             <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
             <li><a href="#Contact">Contact</a></li>
+            <li><a href="#">Register</a></li>
           </ul>
+          <i class="fa fa-bars" id="openMenu" aria-hidden="true"></i>
         </div>
-        <div class="register">
+        <!-- <div class="register"> -->
+          <!-- <button class="glow-on-hover" type="button">Register</button> -->
           <!-- <button class="btn">Register</button> -->
-          <button class="glow-on-hover" type="button">Register</button>
-        </div>
+        <!-- </div> -->
       </div>
     </div>
-  </section>
-    <!-- Banner Section -->
+  </section >
 
+  
+  <section >
+    <div  id="reponsive" class="responsive_hide">
+    <i class="nav_cancel fa fa-close fa-2x" id="closeMenu" ></i>
+      <ul id="close_">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About Us</a></li>
+        <li><a href="#Speakers">Speakers</a></li>
+        <li><a href="#Schedule">Schedule</a></li>
+        <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </div>
+
+  </section>
+
+
+    <!-- Banner Section -->
     <section id="Home">
       <div class="banner">
         <div class="banner-content">
@@ -241,5 +260,7 @@ $('.brand-carousel').owlCarousel({
     }
   }) 
       </script>
+    <script src="js/index.js"></script>
+
   </body>
 </html>
