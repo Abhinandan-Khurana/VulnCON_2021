@@ -1,266 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <title>VulnCON 2021</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- <script src="custom.js"></script> -->
 
-  </head>
+</head>
 
-  <body>
+<body>
     <section>
-    <!-- Navbar -->
-    <div class="navbar" id="navbar" >
-      <div class="menu-bar" >
-        <div class="logo">
-          <a href="https://noobarmy.org/"
-            ><img src="./images/nav-logo-2.png"
-          /></a>
+        <!-- Navbar -->
+        <div class="navbar" id="navbar">
+            <div class="menu-bar">
+                <div class="logo">
+                    <a href="https://noobarmy.org/"><img src="./images/nav-logo-2.png" /></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="#Home">Home</a></li>
+                        <li><a href="#About">About Us</a></li>
+                        <li><a href="#Speakers">Speakers</a></li>
+                        <li><a href="#Schedule">Schedule</a></li>
+                        <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                        <li><a href="#">Register</a></li>
+                    </ul>
+                    <i class="fa fa-bars" id="openMenu" aria-hidden="true"></i>
+                </div>
+                <!-- <div class="register"> -->
+                <!-- <button class="glow-on-hover" type="button">Register</button> -->
+                <!-- <button class="btn">Register</button> -->
+                <!-- </div> -->
+            </div>
         </div>
-        <div class="menu">
-          <ul>
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#About">About Us</a></li>
-            <li><a href="#Speakers">Speakers</a></li>
-            <li><a href="#Schedule">Schedule</a></li>
-            <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="#">Register</a></li>
-          </ul>
-          <i class="fa fa-bars" id="openMenu" aria-hidden="true"></i>
+    </section>
+
+
+    <section>
+        <div id="reponsive" class="responsive_hide">
+            <i class="nav_cancel fa fa-close fa-2x" id="closeMenu"></i>
+            <ul id="close_">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Speakers">Speakers</a></li>
+                <li><a href="#Schedule">Schedule</a></li>
+                <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
+                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
         </div>
-        <!-- <div class="register"> -->
-          <!-- <button class="glow-on-hover" type="button">Register</button> -->
-          <!-- <button class="btn">Register</button> -->
-        <!-- </div> -->
-      </div>
-    </div>
-  </section >
 
-  
-  <section >
-    <div  id="reponsive" class="responsive_hide">
-    <i class="nav_cancel fa fa-close fa-2x" id="closeMenu" ></i>
-      <ul id="close_">
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About">About Us</a></li>
-        <li><a href="#Speakers">Speakers</a></li>
-        <li><a href="#Schedule">Schedule</a></li>
-        <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
-        <li><a href="#Contact">Contact</a></li>
-        <li><a href="#">Register</a></li>
-      </ul>
-    </div>
-
-  </section>
+    </section>
 
 
     <!-- Banner Section -->
     <section id="Home">
-      <div class="banner">
-        <div class="banner-content">
-          <h1>VULNCON 2021</h1>
-          <p class="text">Explore.Learn.Implement</p>
+        <div class="banner">
+            <div class="banner-content">
+                <h1>VULNCON 2021</h1>
+                <p class="text">Explore.Learn.Implement</p>
+            </div>
         </div>
         </div>
-      </div>
     </section>
 
     <!-- About section -->
     <section id="About">
-      <div class="contact_nav_block"></div>
-    
-      <h3 class="about">—About Vulncon—</h3>
-      <div class="nuke">
-        <div style="text-align: center;">
-          <img class="About" src="./images/group.png" alt="Image Loading"/>
+        <div class="contact_nav_block"></div>
+
+        <h3 class="about">—About Vulncon—</h3>
+        <div class="nuke">
+            <div style="text-align: center;">
+                <img class="About" src="./images/group.png" alt="Image Loading" />
+            </div>
+            <div style="text-align: center; margin-top: 2%">
+                <h3 class="head">VULNCON 2020</h3>
+
+                <p class="tuned">We present you the first edition of VULNCON, a four-day virtual hacking conference with lots of exciting security talks, and a 24 hour live jeopardy-style CTF for our beloved CTF community!</p>
+
+                <p class="tuned">Stay tuned for any updates, and be sure to checkout our YouTube & Discord :)</p>
+
+            </div>
+
         </div>
-      <div style="text-align: center; margin-top: 2%">
-       <h3 class="head">VULNCON 2020</h3>
-       
-       <p class="tuned">We present you the first edition of VULNCON, a four-day virtual hacking conference with lots of exciting security talks, and a 24 hour live jeopardy-style CTF for our beloved CTF community!</p>
-       
-       <p class="tuned">Stay tuned for any updates, and be sure to checkout our YouTube & Discord :)</p>
-      
-     </div>
-     
-    </div>
     </section>
 
 
-    
-
-
-
-
-<!-- Sponsors section  -->
-
-<section>
-  <h1 class="sponsor-heading">Our Sponsors</h1>
-  <div class="brand-carousel section-padding owl-carousel">
-    <div class="single-logo">
-      <img src="/images/nav-logo-2.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="/images/nav-logo-2.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="/images/nav-logo-2.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="/images/nav-logo-2.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="/images/nav-logo-2.png" alt="">
-    </div>
-  <div class="single-logo">
-      <img src="/images/nav-logo-2.png" alt="">
-    </div>
-  </div>
-  
-</section>
 
 
 
 
 
+    <!-- Sponsors section  -->
+
+    <section>
+        <h1 class="sponsor-heading">Our Sponsors</h1>
+        <div class="brand-carousel section-padding owl-carousel">
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+        </div>
+
+    </section>
 
 
-      <!-- contact form -->
-      <section class="contact_section" id="Contact">
+    <!-- Speakers Section -->
+    <section class="speaker_section" id="Speakers">
+        <div>
+            <div class="speaker_heading">
+                <h1>Our Esteemed Guest Speakers</h1>
+            </div>
+            <div class="speaker_container">
+                <div class="speaker_card">
+                    <div class="speaker_imgbox">
+                        <img src="./images/speaker.jpg" alt="Image Failed to Load">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 1</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_imgbox">
+                        <img src="./images/speaker.jpg" alt="Image Failed to Load">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_imgbox">
+                        <img src="./images/speaker.jpg" alt="Image Failed to Load">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_imgbox">
+                        <img src="./images/speaker.jpg" alt="Image Failed to Load">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 4</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_imgbox">
+                        <img src="./images/speaker.jpg" alt="Image Failed to Load">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 5</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="speaker_card">
+                    <div class="speaker_imgbox">
+                        <img src="./images/speaker.jpg" alt="Image Failed to Load">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 6</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- contact form -->
+    <section class="contact_section" id="Contact">
         <div class="contact_nav_block"></div>
         <div class="contact_header">CONTACT US</div>
         <div class="contact_form_body">
-          <div class="contact_form">
-            <input
-              type="text"
-              name="name"
-              id="name"
-              class="input_field"
-              placeholder="NAME"
-            />
-  
-            <input
-              type="text"
-              name="email"
-              id="email"
-              class="input_field"
-              placeholder="EMAIL"
-            />
-            <textarea
-              name="message"
-              id="message"
-              rows="10"
-              placeholder="MESSAGE"
-            ></textarea>
-            <button class="glow-on-hover send_btn ">SEND</button>
-          </div>
-          <div class="contact_right">
-            <div class="contact_right_group">
-              <div class="fas ">Website</div>
-              <div class="contact_right_item">noobArmy.com</div>
+            <div class="contact_form">
+                <input type="text" name="name" id="name" class="input_field" placeholder="NAME" />
+
+                <input type="text" name="email" id="email" class="input_field" placeholder="EMAIL" />
+                <textarea name="message" id="message" rows="10" placeholder="MESSAGE"></textarea>
+                <button class="glow-on-hover send_btn ">SEND</button>
             </div>
-            <div class="contact_right_group">
-              <div class="fas">Phone no</div>
-  
-              <div class="contact_right_item">1234567890</div>
+            <div class="contact_right">
+                <div class="contact_right_group">
+                    <div class="fas ">Website</div>
+                    <div class="contact_right_item">noobArmy.com</div>
+                </div>
+                <div class="contact_right_group">
+                    <div class="fas">Phone no</div>
+
+                    <div class="contact_right_item">1234567890</div>
+                </div>
+                <div class="contact_right_group">
+                    <div class="fas">Email</div>
+
+                    <div class="contact_right_item">noobarmy@gmail.com</div>
+                </div>
             </div>
-            <div class="contact_right_group">
-              <div class="fas">Email</div>
-  
-              <div class="contact_right_item">noobarmy@gmail.com</div>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
 
 
 
 
 
-<!--  FOOTER SECTION -->
-  
-<div class="footer">
-  <div class="inner-footer">
+    <!--  FOOTER SECTION -->
 
-    <div class="footer-items">
-      <h1>N00B_4rMY</h1>
-      <p>N00B_4rMY is an Information Security Open Source Community. We help each other to learn security stuff and be the best version of ourselves as well as others.</p>
+    <div class="footer">
+        <div class="inner-footer">
+
+            <div class="footer-items">
+                <h1>N00B_4rMY</h1>
+                <p>N00B_4rMY is an Information Security Open Source Community. We help each other to learn security stuff and be the best version of ourselves as well as others.</p>
+            </div>
+
+
+
+            <!--  for contact us info -->
+            <div class="footer-items">
+                <h3>Contact us</h3>
+                <div class="border1"></div>
+                <ul>
+                    <li><i class="fa fa-map-marker" aria-hidden="true"></i>Lovely Professional University</li>
+                    <li><i class="fa fa-phone" aria-hidden="true"></i> (+91) 7352039226</li>
+                    <li><i class="fa fa-envelope" aria-hidden="true"></i>hello@noobarmy.org</li>
+                </ul>
+
+                <!--   for social links -->
+                <div class="social-media">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            Copyright &copy; N00B_4rMY Team 2021
+        </div>
     </div>
 
 
 
-<!--  for contact us info -->
-    <div class="footer-items">
-      <h3>Contact us</h3>
-      <div class="border1"></div>
-        <ul>
-          <li><i class="fa fa-map-marker" aria-hidden="true"></i>Lovely Professional University</li>
-          <li><i class="fa fa-phone" aria-hidden="true"></i> (+91) 7352039226</li>
-          <li><i class="fa fa-envelope" aria-hidden="true"></i>hello@noobarmy.org</li>
-        </ul> 
-      
-<!--   for social links -->
-        <div class="social-media">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-google-plus-square"></i></a>
-        </div> 
-    </div>
-  </div>
-  
-
-  <div class="footer-bottom">
-    Copyright &copy; N00B_4rMY Team 2021
-  </div>
-</div>
 
 
-
-
-
-      <script>
+    <script>
         const text = document.querySelector('.text');
-text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>")
-const element = document.querySelectorAll('span');
-for (let i=0; i<element.length;i++){
-  element[i].style.animationDelay = i*0.05 + 's'; 
-}
+        text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>")
+        const element = document.querySelectorAll('span');
+        for (let i = 0; i < element.length; i++) {
+            element[i].style.animationDelay = i * 0.05 + 's';
+        }
 
-$('.brand-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    autoplay:true,
-    responsive:{
-      0:{
-        items:1
-      },
-      600:{
-        items:3
-      },
-      1000:{
-        items:5
-      }
-    }
-  }) 
-      </script>
+        $('.brand-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            autoplay: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                }
+            }
+        })
+    </script>
     <script src="js/index.js"></script>
 
-  </body>
+</body>
+
 </html>
