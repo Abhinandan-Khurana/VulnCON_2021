@@ -3,7 +3,7 @@ body{
   overflow-x: hidden;
 }
 .contact_section {
-  background: black ;
+  background: #061014;
   /* opacity: 0.4; */
   color: #fff;
   min-height: 100vh;

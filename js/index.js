@@ -3,7 +3,7 @@ window.addEventListener("scroll", onScrollFixNav);
 function onScrollFixNav() {
   var navbar = document.getElementById("navbar");
   if (window.scrollY > 100) {
-    navbar.style.background = "#111";
+    navbar.style.background = "#061014";
     navbar.style.height = "6%";
   } else {
     navbar.style.background = "transparent";

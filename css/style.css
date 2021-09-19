@@ -67,7 +67,7 @@ html {
     border: none;
     outline: none;
     color: #fff;
-    background: #111;
+    background: rgb(6, 16, 20);
     cursor: pointer;
     position: relative;
     z-index: 0;
@@ -184,12 +184,11 @@ html {
     background: url("/images/banner.gif") no-repeat center fixed;
     text-decoration: none;
     padding-top: 300px;
-    padding-left: 13vh;
     overflow-x: clip;
     margin: -8px;
     background-size: cover;
     background-attachment: fixed;
-    height: 60vh;
+    min-height: 80vh;
     /* transition: all 0.6s ease; */
 }
 
@@ -202,7 +201,7 @@ html {
     text-align: center;
     text-transform: capitalize;
     line-height: 5px;
-    margin-right: 90px;
+    margin-bottom: 20px;
 }
 
 .banner-content p {
@@ -210,9 +209,7 @@ html {
     color: #e2f3f5;
     text-align: center;
     text-transform: capitalize;
-    line-height: 20px;
-    margin-top: 80px;
-    margin-right: 90px;
+   
 }
 
 .banner-content p span {
@@ -281,7 +278,7 @@ div .tuned {
 }
 
 body {
-    background: navy;
+    background: #061014;
 }
 
 .section-padding {
@@ -323,18 +320,18 @@ body {
     justify-content: center;
     aLign-items: center;
     min-height: 100vh;
-    background: #000;
+    background: #061014;
 }
 
 .speaker_section .speaker_heading {
     margin: 50px 0 30px;
     text-align: center;
     color: #fff;
-    font-size: 25px;
+    font-size: 2.2rem;
     font-family: sans-serif;
     font-weight: 600;
-    border: 1px solid white;
-    border-radius: 10px;
+    /* border: 1px solid white;
+    border-radius: 10px; */
     padding: 10px 0;
 }
 
@@ -444,7 +441,177 @@ body {
     transition: 0.5s;
 }
 
+/* Vulncon Schedule  */
+.vulnCon_Schedule{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+    font-size: 2.2rem;
+}
+.maintimeline {
+    position: relative;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+/* The actual maintimeline (the vertical ruler) */
 
+.maintimeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #00ffd5;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+/* timecontainer around timecontent */
+
+.timecontainer {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 44%;
+}
+/* The circles on the maintimeline */
+
+.timecontainer::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -13px;
+    background-color: #191e20;
+    border: 4px solid #00ffd5;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.timecontent h2,
+p {
+    color: white;
+}
+
+.timecontent h2 {
+    font-family: 'Courgette', cursive
+}
+
+.timecontent p {
+    font-family: 'Anonymous Pro', monospace;
+}
+/* Place the timecontainer to the left */
+
+.left {
+    left: 0px;
+    animation: new 0.7s ease-in;
+}
+
+@keyframes new {
+    0% {
+        transform: translateX(-30px);
+    }
+}
+/* Place the timecontainer to the right */
+
+.right {
+    left: 50%;
+    animation: new2 0.7s ease-in;
+}
+
+@keyframes new2 {
+    0% {
+        transform: translateX(30px);
+    }
+}
+/* Add arrows to the left timecontainer (pointing right) */
+
+.left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid white;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent white;
+}
+/* Add arrows to the right timecontainer (pointing left) */
+
+.right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+/* Fix the circle for timecontainers on the right side */
+
+.right::after {
+    left: -16px;
+}
+/* The actual timecontent */
+
+.timecontent {
+    padding: 20px 30px;
+    background-color: rgb(5, 27, 36);
+    position: relative;
+    border-radius: 6px;
+}
+/* Media queries - Responsive maintimeline on screens less than 600px wide */
+@media screen and (max-width: 1400px){
+    .left{
+        left: -20px;
+    }
+}
+@media screen and (max-width: 700px) {
+    /* Place the timelime to the left */
+    .maintimeline::after {
+        left: 31px;
+    }
+    /* Full-width timecontainers */
+    .left{
+        left: 0px;
+    }
+    .timecontainer {
+        width: 80%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    /* Make sure that all arrows are pointing leftwards */
+    .timecontainer::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+    /* Make sure all circles are at the same spot */
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+    /* Make all right timecontainers behave like the left ones */
+    .right {
+        left: 0%;
+        animation: none;
+    }
+    .left {
+
+        animation: none;
+    }
+}
+
+.maintime {
+    margin-top: 100px;
+}
 /* Footer section */
 
 .footer {
@@ -460,7 +627,8 @@ body {
     display: flex;
     flex-wrap: wrap;
     box-sizing: border-box;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .footer-items {
