@@ -43,7 +43,7 @@ textarea {
 .contact_form {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  min-width: 400px;
 }
 input {
   width: 96.5%;
@@ -53,6 +53,7 @@ input {
   margin: 0;
   font-size: 14px;
   width: 100%;
+  border: 1px solid #fff;
 }
 .send_btn:hover {
   color: #fff;
@@ -74,6 +75,28 @@ input {
   color: #a7a7a7;
   padding-bottom: 5px;
 }
+.contact_social_group{
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.contact_social{
+  color: #fff;
+  margin: 10% 5%;
+}
+.contact_social_instagram{
+  color: #fff;
+  background:  linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  border-radius: 10px;
+}
+.contact_social_fb{
+  background: blue;
+  border-radius: 50%;
+}
+.contact_social_google{
+  background: black;
+}
 
 @media screen and (max-width: 850px) {
   .contact_form_body {
@@ -91,5 +114,11 @@ input {
   }
   .fas {
     padding: 5px 2rem 0 0;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .contact_form{
+    min-width: 300px;
   }
 }
