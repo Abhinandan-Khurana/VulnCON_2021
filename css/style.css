@@ -27,10 +27,11 @@ html {
 
 .logo {
     display: grid;
+    width: 100px;
 }
 
 .logo img {
-    max-width: 35vh;
+    max-width: 20vh;
 }
 
 .menu ul {
@@ -183,7 +184,7 @@ html {
 .banner {
     background: url("/images/banner.gif") no-repeat center fixed;
     text-decoration: none;
-    padding-top: 300px;
+    padding-top: 130px;
     overflow-x: clip;
     margin: -8px;
     background-size: cover;
@@ -195,13 +196,26 @@ html {
 
 /* banner section -->  */
 
-.banner-content h1 {
-    font-size: 5vw;
-    color: #00ffd5;
-    text-align: center;
-    text-transform: capitalize;
-    line-height: 5px;
-    margin-bottom: 20px;
+.banner-content  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home_center_logo{
+    width: 250px;
+padding-bottom: 50px;
+}
+.home_center_img{
+    display: grid;
+    place-items: center;
+}
+.home_vulcon{
+    width: 500px;
+    padding: 10px;
+}
+.home_2021 {
+    padding: 10px;
+    width: 200px;
 }
 
 .banner-content p {
@@ -231,6 +245,23 @@ html {
     }
 }
 
+/* banner media query */
+
+@media screen and (max-width: 600px) {
+    .home_center_logo{
+        width: 40vw;
+    }
+   .home_vulcon{
+        width: 80vw;
+    }
+    .home_2021 {
+        width: 30vw;
+    }
+}
+
+/* Banner End  */
+
+/* About Section */
 #About {
     height: 100vh;
 }
