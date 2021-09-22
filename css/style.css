@@ -203,8 +203,8 @@ html {
     align-items: center;
 }
 .home_center_logo{
-    width: 250px;
-padding-bottom: 50px;
+    width: 400px;
+padding-bottom: 10px;
 }
 .home_center_img{
     display: grid;
