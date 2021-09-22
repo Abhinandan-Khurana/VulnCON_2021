@@ -190,7 +190,7 @@ html {
     margin: -8px;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 80vh;
+    min-height: 100vh;
     /* transition: all 0.6s ease; */
 }
 
