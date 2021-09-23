@@ -274,14 +274,14 @@ font-family: cursive;
 }
 
 
-h1 .fancy span
+.fancy span
 {
     opacity: 0;
      transition: all 0.5s ease;
      transform: translateY(50px);
      display: inline-block;
 }
-span .fade
+.fancy span.fade
 {
     transform: translateY(0px);
     opacity: 1;

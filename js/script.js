@@ -1,26 +1,26 @@
-const ztext=document.querySelector('.fancy');
-const stringtext=ztext.textContent;
-const splitText=stringtext.split("");
-ztext.textContent="";
-for(let i=0; i<splitText.length; ++i)
-{
-    ztext.innerHTML +="<span>"+splitText[i] +"</span>";
-}
- let char= 0;
- let timer= setInterval(onTick,50);
- function onTick()
- {
-     const span=text.querySelectorAll('span')[char];
-     span.classList.add('fade');
-     char++;
-     if(char===splitText.length)
-      {
-          complete();
-          return;
-      }
- }
- function complete()
- {
-     classInterval(timer);
-     timer=null;
- }
+
+    const abouttext=document.querySelector('.fancy');
+    const stringtext="About"
+    const splitText=stringtext.split("");
+    abouttext.textContent="";
+    for(let i=0; i<splitText.length; ++i)
+    {
+        abouttext.innerHTML +="<span class='aws'>"+splitText[i] +"</span>";
+    }
+    let char = 0;
+        var timer = setInterval(onTick,500);
+    
+    
+    function onTick()
+    {  
+        const span = abouttext.querySelectorAll('.aws')[char];
+        if(char >= splitText.length)
+        {
+            console.log(char, "shuwhu")
+            clearInterval(timer)
+            return;
+        }
+        span.classList.add('fade');
+        char++;
+        
+    }
