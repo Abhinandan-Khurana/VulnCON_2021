@@ -27,3 +27,4 @@ function closeMenu(){
   responsive.classList.remove("responsive")
   responsive.classList.add("responsive_hide")
 }
+

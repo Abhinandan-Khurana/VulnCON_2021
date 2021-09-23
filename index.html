@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital@1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -94,7 +97,28 @@
         </div>
         </div>
     </section>
-
+    <section class="bg">
+        <br>
+          
+         <h1 class="fancy">About</h1>
+         
+         <div class="nuke" data-aos="fade-left">
+             <div class="image">
+               <img class="About" src="./images/group.png" alt="Image Loading"/>
+             </div>
+           <div class="Content">
+            <h3 class="head">VULNCON 2021</h3>
+            
+            <p class="tuned">We present you the first edition of VULNCON, a four-day virtual hacking conference with lots of exciting security talks, and a 24 hour live jeopardy-style CTF for our beloved CTF community!</p>
+            
+            <p class="tuned">Stay tuned for any updates, and be sure to checkout our YouTube & Discord :)</p>
+            
+             <!-- <button class="btn">Register</button> -->
+             <button class="glow-on-hover discord" type="button">Join Discord</button>
+           
+          </div>
+         </div>
+        </section>
     <!-- About section
     <section id="About">
         <div class="contact_nav_block"></div>
@@ -414,7 +438,17 @@
         })
     </script>
     <script src="js/index.js"></script>
-
+    <script src="js/script.js"></script>
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+          {
+              offset: 300,
+              duration:1000
+          }
+      );
+    </script>
 </body>
 
 </html>
