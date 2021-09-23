@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -95,26 +97,31 @@
         </div>
     </section>
 
-    <!-- About section
-    <section id="About">
-        <div class="contact_nav_block"></div>
 
-        <h3 class="about">—About Vulncon—</h3>
-        <div class="nuke">
-            <div style="text-align: center;">
-                <img class="About_img" src="./images/group.png" alt="Image Loading" />
-            </div>
-            <div style="text-align: center; margin-top: 2%">
-                <h3 class="head">VULNCON 2020</h3>
-
-                <p class="tuned">We present you the first edition of VULNCON, a four-day virtual hacking conference with lots of exciting security talks, and a 24 hour live jeopardy-style CTF for our beloved CTF community!</p>
-
-                <p class="tuned">Stay tuned for any updates, and be sure to checkout our YouTube & Discord :)</p>
-
-            </div>
-
-        </div>
-    </section> -->
+     <!-- About section -->
+     <section class="about_bg" id="About">
+        <br>
+        <div style="height: 100px;" ></div>
+          
+         <h1 class="fancy">About</h1> 
+         
+         <div class="nuke">
+             <div class="image"  data-aos="fade-left">
+               <img class="About" src="./images/group.png" alt="Image Loading"/>
+             </div>
+           <div class="Content"  data-aos="fade-right">
+            <h3 class="head">VULNCON 2021</h3>
+            
+            <p class="tuned">We present you the first edition of VULNCON, a four-day virtual hacking conference with lots of exciting security talks, and a 24 hour live jeopardy-style CTF for our beloved CTF community!</p>
+            
+            <p class="tuned">Stay tuned for any updates, and be sure to checkout our YouTube & Discord :)</p>
+            
+             <!-- <button class="btn">Register</button> -->
+             <button class="glow-on-hover discord" type="button">Join Discord</button>
+           
+          </div>
+         </div>
+        </section>
 
 
 
@@ -157,7 +164,8 @@
                 <h1>Our Speakers</h1>
             </div>
             <div class="speaker_container">
-                <div class="speaker_card">
+
+                <div class="speaker_card " data-aos="fade-up" >
                     <div class="speaker_imgbox">
                         <img src="./images/redacted.jpg" alt="Image Failed to Load">
                     </div>
@@ -173,13 +181,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="speaker_card">
+            
+
+                <div class="speaker_card " data-aos="fade-up" >
                     <div class="speaker_imgbox">
                         <img src="./images/redacted.jpg" alt="Image Failed to Load">
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 2</h3>
+                            <h3>Speaker 1</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
                             <div class="speaker_social-media">
                                 <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -189,13 +199,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="speaker_card">
+            
+
+                <div class="speaker_card " data-aos="fade-up" >
                     <div class="speaker_imgbox">
                         <img src="./images/redacted.jpg" alt="Image Failed to Load">
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 3</h3>
+                            <h3>Speaker 1</h3>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
                             <div class="speaker_social-media">
                                 <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -205,60 +217,13 @@
                         </div>
                     </div>
                 </div>
-                <div class="speaker_card">
-                    <div class="speaker_imgbox">
-                        <img src="./images/redacted.jpg" alt="Image Failed to Load">
-                    </div>
-                    <div class="speaker_contentbox">
-                        <div class="speaker_content">
-                            <h3>Speaker 4</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
-                            <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="speaker_card">
-                    <div class="speaker_imgbox">
-                        <img src="./images/redacted.jpg" alt="Image Failed to Load">
-                    </div>
-                    <div class="speaker_contentbox">
-                        <div class="speaker_content">
-                            <h3>Speaker 5</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
-                            <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="speaker_card">
-                    <div class="speaker_imgbox">
-                        <img src="./images/redacted.jpg" alt="Image Failed to Load">
-                    </div>
-                    <div class="speaker_contentbox">
-                        <div class="speaker_content">
-                            <h3>Speaker 6</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
-                            <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
             </div>
         </div>
     </section>
 
     <!-- Vulncon Schedule  -->
-    <div id="Schedule"></div>
+    <div id="Schedule" style="height: 40px;"></div>
     <div class="scheduleheading">
         <span>OUR TIMETABLE</span>
         <h1>SCHEDULE PLAN</h1>
@@ -361,14 +326,14 @@
         <div class="contact_nav_block"></div>
         <div class="contact_header">CONTACT US</div>
         <div class="contact_form_body">
-            <div class="contact_form">
+            <div class="contact_form" data-aos="fade-right">
                 <input type="text" name="name" id="name" class="input_field" placeholder="Name" />
 
                 <input type="text" name="email" id="email" class="input_field" placeholder="E-mail" />
                 <textarea name="message" id="message" rows="10" placeholder="Message"></textarea>
                 <button class="glow-on-hover send_btn ">SEND</button>
             </div>
-            <div class="contact_right">
+            <div class="contact_right" data-aos="fade-left">
                 <div class="contact_right_group">
                     <div class="fas ">Website</div>
                     <div class="contact_right_item">noobArmy.com</div>
@@ -441,12 +406,12 @@
 
 
     <script>
-        const text = document.querySelector('.text');
-        text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>")
-        const element = document.querySelectorAll('span');
-        for (let i = 0; i < element.length; i++) {
-            element[i].style.animationDelay = i * 0.05 + 's';
-        }
+        // const text = document.querySelector('.text');
+        // text.innerHTML = text.textContent.replace(/\S/g, "<span>$&</span>")
+        // const element = document.querySelectorAll('span');
+        // for (let i = 0; i < element.length; i++) {
+        //     element[i].style.animationDelay = i * 0.05 + 's';
+        // }
 
         $('.brand-carousel').owlCarousel({
             loop: true,
@@ -466,6 +431,15 @@
         })
     </script>
     <script src="js/index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init(
+          {
+              offset: 300,
+              duration:1000
+          }
+      );
+    </script>
 
 </body>
 
