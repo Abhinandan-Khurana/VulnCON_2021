@@ -635,6 +635,9 @@ body {
       .innercontents h3,h5,span{
           font-size: 10px;
       }
+      .innercontents{
+          margin-right: 28px;
+      }
       .innercontents img{
           height: 50px;
           width: 100px;
