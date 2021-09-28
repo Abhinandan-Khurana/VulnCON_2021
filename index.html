@@ -10,11 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,7 +22,6 @@
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>
     
     <title>VulnCON 2021</title>
-    <!-- <script src="custom.js"></script> -->
 
 </head>
 
@@ -33,47 +31,29 @@
         <div class="navbar" id="navbar">
             <div class="menu-bar">
                 <div class="logo">
-                    <a href="https://noobarmy.org/"><img src="./images/nav-logo-2.png" /></a>
+                    <a style="height: 18.75px;" href="https://noobarmy.org/"><img src="./images/nav-logo-2.png" /></a>
                 </div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About Us</a></li>
-                        <li><a href="#Speakers">Speakers</a></li>
-                        <li><a href="#Schedule">Schedule</a></li>
-                        <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                        <li><a href="/team.html">Team</a></li>
-                        <li><a href="#" class="glow-on-hover">Register</a></li>
+                <nav>
+                    <ul class="menu">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About Us</a></li>
+                            <li><a href="#Speakers">Speakers</a></li>
+                            <li><a href="#Schedule">Schedule</a></li>
+                            <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                            <li><a href="/team.html">Team</a></li>
+                            <li><a href="#" class="glow-on-hover">Register</a></li>
                     </ul>
-                    <i class="fa fa-bars" id="openMenu" aria-hidden="true"></i>
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </nav>
                 </div>
-                <!-- <div class="register"> -->
-                <!-- <button class="glow-on-hover" type="button">Register</button> -->
-                <!-- <button class="btn">Register</button> -->
-                <!-- </div> -->
+               
             </div>
         </div>
     </section>
-
-
-    <section>
-        <div id="reponsive" class="responsive_hide">
-            <i class="nav_cancel fa fa-close fa-2x" id="closeMenu"></i>
-            <ul id="close_">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About Us</a></li>
-                <li><a href="#Speakers">Speakers</a></li>
-                <li><a href="#Schedule">Schedule</a></li>
-                <li><a href="#VulnCON_CTF">VulnCON CTF</a></li>
-                <li><a href="#Contact">Contact</a></li>
-                <li><a href="/team.html">Team</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
-        </div>
-
-    </section>
-
 
     <!-- Banner Section -->
     <section id="Home">
@@ -103,7 +83,7 @@
         <br>
         <div style="height: 100px;" ></div>
           
-         <h1 class="headings">About</h1> 
+         <h1 class="headings" data-aos='zoom-in'>About</h1> 
          
          <div class="nuke">
              <div class="image"  data-aos="fade-left">
@@ -161,7 +141,7 @@
     <section class="speaker_section" id="Speakers">
         <div>
             <div class="speaker_heading">
-                <h1 class="headings">Our Speakers</h1>
+                <h1 class="headings" data-aos='zoom-in'>Our Speakers</h1>
             </div>
             <div class="speaker_container">
 
@@ -227,7 +207,7 @@
 
     <div id="Schedule" style="height: 40px;"></div>
     <div class="scheduleheading">
-        <h1 class="headings">SCHEDULE PLAN</h1>
+        <h1 class="headings" data-aos='zoom-in'>SCHEDULE PLAN</h1>
         <span class="span_time">OUR TIMETABLE</span>
     </div>
     <div class="tabsbtn">
@@ -328,7 +308,7 @@
     <!-- contact form -->
     <section class="contact_section" id="Contact">
         <div class="contact_nav_block"></div>
-        <div class="contact_header headings">CONTACT US</div>
+        <div class="contact_header headings" data-aos='zoom-in'>CONTACT US</div>
         <div class="contact_form_body">
             <div class="contact_form" data-aos="fade-right">
                 <input type="text" name="name" id="name" class="input_field" placeholder="Name" />

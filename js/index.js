@@ -10,20 +10,31 @@ function onScrollFixNav() {
     navbar.style.height = "8%";
   }
 }
-console.log(document.getElementById("openMenu"))
-document.getElementById("openMenu").addEventListener('click',OpenMenu);
-function OpenMenu(){
-  var responsive = document.getElementById("reponsive")
-  responsive.classList.remove("responsive_hide");
-  responsive.classList.add("responsive");
-  // console.log("clicked")
+
+/*Updated Menu-Btn Javascript*/
+
+const burger = document.querySelector('.burger');
+const nav = document.querySelector('.menu');
+const navLinks = document.querySelectorAll('.menu li');
+
+function toogleNav() {
+  //! Toggle Nav
+  nav.classList.toggle('nav-active');
+
+  //! Animate Links
+  navLinks.forEach((link, index) => {
+      // console.log(index);
+      if (link.style.animation) {
+          link.style.animation = '';
+      } else {
+          link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.6}s`;
+          // console.log(index / 7);
+      }
+  });
+  // Burger Animation
+  burger.classList.toggle('toggle');
 }
 
-document.getElementById("closeMenu").addEventListener('click',closeMenu);
-document.getElementById("close_").addEventListener('click',closeMenu);
+burger.addEventListener('click',toogleNav );
 
-function closeMenu(){
-  var responsive = document.getElementById("reponsive")
-  responsive.classList.remove("responsive")
-  responsive.classList.add("responsive_hide")
-}
+nav.addEventListener('click', toogleNav);

@@ -41,7 +41,9 @@ html {
 .navbar {
     position: fixed;
     z-index: 99;
-    padding: 25px 25px 10px 25px;
+    display: grid;
+    align-items: center;
+    padding: 15px 25px 10px 25px;
     text-decoration: none;
     margin: 0px 0 0 -10px;
     height: 8%;
@@ -65,7 +67,7 @@ html {
     max-width: 20vh;
 }
 
-.menu ul {
+.menu{
     display: flex;
     text-align: center;
     font-weight: 200;
@@ -74,7 +76,8 @@ html {
 
 .menu a {
     padding: 0 10px;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
+    position: relative;
     text-decoration: none;
     color: white;
     transition: all 0.6s ease;
@@ -85,13 +88,9 @@ html {
     cursor: pointer;
     transition: all 0.6s ease;
 }
-#openMenu{
-    display: none;
-}
 
-.responsive_hide {
-    display: none;
-}
+
+
 
 .glow-on-hover {
     /* width: 100px; */
@@ -162,53 +161,77 @@ html {
     }
 }
 
-@media screen and (max-width: 1025px) {
-    .menu ul {
-        display: none;
+
+/* latest nav  */
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 30px;
+    height: 4px;
+    background-color: #bf2cff;
+    margin: 5px;
+    transition: all 0.3s ease;
+    border-radius: 3px;
+}
+@media screen and (max-width: 850px) {
+    body{
+        overflow-x: hidden;
     }
-    #openMenu{
-        display: block;
-    }
-    .menu {
-        color: #fff;
-        /* padding: 15px; */
-        font-size: 32px;
-        width: 50px;
-        cursor: pointer;
-    }
-    .nav_cancel {
-        color: #fff;
-        font-size: 64px;
-        width: 50px;
+
+    .menu{
         position: absolute;
-        top: 25px;
-        right: 8px;
+        right: 0px;
+        height: 93vh;
+        top: 9vh;
+       background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        justify-content: center;
     }
-    .responsive {
-        display: grid;
-        place-items: center;
-        position: fixed;
-        width: 100vw;
-        height: 110vh;
-        z-index: 99;
-        background: rgba(0, 0, 0);
+
+    .menu li {
+        opacity: 0;
+        padding: 10px 0px;
     }
-    .responsive ul {
-        list-style-type: none;
-        display: grid;
-        place-items: center;
-        height: 70vh;
+
+    .burger{
+        display: block;
+      
     }
-    .responsive ul li a {
-        font-size: 1.3rem;
-        text-decoration: none;
-        color: #fff;
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50%);
     }
-    .responsive a:hover {
-        color: #48ff00;
+    to{
+        opacity: 1;
+        transform: translateX(0%);
     }
 }
 
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-6px,-7.5px);
+}
 
 /* End Nav bar */
 
