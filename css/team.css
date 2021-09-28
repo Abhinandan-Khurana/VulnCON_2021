@@ -73,6 +73,9 @@
 .team_social .fa-linkedin:hover{
     color: blue;
 }
+.team_social .fa-twitter:hover{
+    color: #1DA1F2;
+}
 
 
 .team_box:hover{
