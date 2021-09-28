@@ -58,6 +58,22 @@
   transition: all 700ms ease-out;
   color: #fff;
 }
+.fa{
+    transition: all 1s;
+
+}
+.team_social .fa:hover{
+    transform: scale(1.2);
+    border-radius: 5px;
+}
+.team_social .fa-instagram:hover{
+    background: -webkit-linear-gradient(
+        45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.team_social .fa-linkedin:hover{
+    color: blue;
+}
+
 
 .team_box:hover{
     background-position:  top left;

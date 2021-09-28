@@ -15,7 +15,7 @@ html {
     text-decoration: none;
     margin: 0px 0 0 -10px;
     height: 8%;
-    width: 98%;
+    width: 98vw;
     transition: all 500ms ease-in;
     /* background-color: violet; */
 }
@@ -182,8 +182,8 @@ html {
 
 /* End Nav bar */
 
-.banner {
-    background: url("/images/banner.gif") no-repeat center fixed;
+.banner  {
+    background: url("/images/banner-low.gif") no-repeat center fixed;
     text-decoration: none;
     padding-top: 130px;
     overflow-x: clip;
@@ -327,7 +327,7 @@ div .head
 
 .about_bg
 {
-  background: url("/images/3.jpg");
+  /* background: url("/images/3.jpg"); */
   
   background-attachment: fixed;
   margin-top: -40px;
@@ -605,6 +605,7 @@ body {
   @media(max-width: 550px){
       .tabcontent{
           width: 95%;
+          padding: 30px 0;
       }
       .innercontents h3,h5,span{
           font-size: 10px;
