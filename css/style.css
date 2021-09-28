@@ -84,7 +84,7 @@ html {
 }
 
 .menu a:hover {
-    color: rgb(17, 192, 31);
+    color: #bf2cff;
     cursor: pointer;
     transition: all 0.6s ease;
 }
@@ -203,7 +203,7 @@ html {
 
     .burger{
         display: block;
-      
+        padding-right: 10px;
     }
 }
 .nav-active{
@@ -503,8 +503,8 @@ body {
 
 .speaker_section .speaker_container .speaker_card {
     position: relative;
-    width: 320px;
-    height: 320px;
+    width: 312px;
+    height: 312px;
     margin: 15px;
     overflow: hidden;
 }
