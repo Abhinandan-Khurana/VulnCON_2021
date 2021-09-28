@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
 }
-*{overflow-x: clip;}
+section
+{overflow-x: clip;}
 
 html {
     scroll-behavior: smooth;
@@ -223,7 +224,9 @@ html {
 
 
 /* banner section -->  */
-
+#Home{
+    margin-right: -10px;
+}
 .banner-content  {
     display: flex;
     flex-direction: column;
@@ -632,7 +635,6 @@ body {
   @media(max-width: 550px){
       .tabcontent{
           width: 95%;
-          padding: 30px 0;
       }
       .innercontents h3,h5,span{
           font-size: 10px;
