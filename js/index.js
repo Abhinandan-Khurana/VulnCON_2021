@@ -16,7 +16,7 @@ function OpenMenu(){
   var responsive = document.getElementById("reponsive")
   responsive.classList.remove("responsive_hide");
   responsive.classList.add("responsive");
-  console.log("clicked")
+  // console.log("clicked")
 }
 
 document.getElementById("closeMenu").addEventListener('click',closeMenu);

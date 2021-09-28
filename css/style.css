@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Anonymous+Pro:wght@700&family=Mitr:wght@300&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Mitr', sans-serif;
 }
 section
 {overflow-x: clip;}
@@ -334,25 +336,26 @@ font-weight: bolder;
 {
   text-align: left; margin-top: 3% ;margin-left: 4.5%;
 }
+
 div .head
 {
-  color:chartreuse;
-  font-family: 'Grechen Fuemen', cursive;
+  color:rgb(230, 235, 225);
+  font-family: 'Anonymous Pro', monospace;
   font-size: 30px;
   margin-bottom:30px;
 }
  .tuned
 {
   font-size: 16px;
-  font-family: cursive;
-  
-  color: chartreuse;
+  font-family: 'Chakra Petch', sans-serif;
+  color: rgb(255, 255, 255);
 }
 .discord
 {
   margin-left: -1px;
   margin-top: 42px;
   width: 100px;
+  font-family: 'Chakra Petch', sans-serif;
 }
 
 .about_bg
@@ -648,7 +651,18 @@ body {
           object-fit:contain;
       }
   }
-
+.headings{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Anonymous Pro', monospace !important;
+    margin: 10px 0;
+}
+.span_time{
+    font-family: 'Chakra Petch', sans-serif, cursive;
+    font-size: 1.8rem;
+}
 /* Footer section */
 
 .footer {
