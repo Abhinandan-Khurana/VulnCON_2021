@@ -239,7 +239,7 @@ html {
 .banner  {
     background: url("/images/banner-low.gif") no-repeat center fixed;
     text-decoration: none;
-    padding-top: 130px;
+    padding-top: 120px;
     overflow-x: clip;
     margin: -8px;
     background-size: cover;
