@@ -1,3 +1,10 @@
+AOS.init(
+  {
+      offset: 300,
+      duration:800
+  }
+);
+
 window.addEventListener("scroll", onScrollFixNav);
 
 function onScrollFixNav() {
@@ -37,4 +44,6 @@ function toogleNav() {
 
 burger.addEventListener('click',toogleNav );
 
-nav.addEventListener('click', toogleNav);
+if($(window).width() < 1025){
+  nav.addEventListener('click', toogleNav);
+}

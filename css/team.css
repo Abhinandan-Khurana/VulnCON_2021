@@ -82,8 +82,8 @@
     background-position:  top left;
 }
 .team_box:hover .team_box_pic img{  
-	-webkit-filter: sepia(100%);
-	filter: sepia(100%);
+	-webkit-filter: blur(2px) ;
+	filter: blur(2px);
 }
 .team_box:hover .team_social{
     right: 28%;

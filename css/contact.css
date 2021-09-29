@@ -83,18 +83,23 @@ input {
 .contact_social{
   color: #fff;
   margin: 10% 5%;
+  transition: all 500ms ;
 }
+.contact_social:hover{
+  transform: translateY(-10px);
+}
+
 .contact_social_instagram{
   color: #fff;
   background:  linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
   border-radius: 10px;
 }
-.contact_social_fb{
-  background: blue;
+.contact_social_twitter{
+  color: #1DA1F2;
   border-radius: 50%;
 }
-.contact_social_google{
-  background: black;
+.contact_social_youtube{
+  color: red;
 }
 
 @media screen and (max-width: 850px) {

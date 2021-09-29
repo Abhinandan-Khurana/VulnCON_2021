@@ -177,7 +177,7 @@ html {
     transition: all 0.3s ease;
     border-radius: 3px;
 }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1025px) {
     body{
         overflow-x: hidden;
     }
