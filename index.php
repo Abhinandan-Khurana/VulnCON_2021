@@ -56,8 +56,8 @@
     <meta charset="UTF-8" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
+    <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -87,13 +87,13 @@
                 </div>
                 <nav>
                     <ul class="menu">
-                        <li><a href="#Home">Home</a></li>
-                        <li><a href="#About">About Us</a></li>
-                        <li><a href="#Speakers">Speakers</a></li>
-                        <li><a href="#Schedule">Schedule</a></li>
-                        <li><a href="#VULNCON_CTF">VULNCON CTF</a></li>
-                        <li><a href="#Contact">Contact</a></li>
-                        <li><a href="/team.html">Team</a></li>
+                        <li><a href="https://noobarmy.org/vulncon#Home">Home</a></li>
+                        <li><a href="https://noobarmy.org/vulncon/#About">About Us</a></li>
+                        <li><a href="https://noobarmy.org/vulncon/#Speakers">Speakers</a></li>
+                        <li><a href="https://noobarmy.org/vulncon/#Schedule">Schedule</a></li>
+                        <li><a href="https://noobarmy.org/vulncon/#VULNCON_CTF">VULNCON CTF</a></li>
+                        <li><a href="https://noobarmy.org/vulncon/#Contact">Contact</a></li>
+                        <li><a href="https://noobarmy.org/vulncon/team.html">Team</a></li>
                         <li><a href="#" class="glow-on-hover">Register</a></li>
                     </ul>
                     <div class="burger">
@@ -112,9 +112,9 @@
         <div class="banner">
             <div class="banner-content">
                 <div class="home_center_img">
-                    <img class="home_center_logo" src="/images/home_logo.png" alt="" srcset="">
-                    <img class="home_vulcon" src="/images/logo/VULNCON.png" alt="" srcset="">
-                    <img class="home_2021" src="/images/logo/2021.png" alt="" srcset="">
+                    <img class="home_center_logo" src="images/home_logo.png" alt="" srcset="">
+                    <img class="home_vulcon" src="images/logo/VULNCON.png" alt="" srcset="">
+                    <img class="home_2021" src="images/logo/2021.png" alt="" srcset="">
                 </div>
                 <!-- <p class="text">Explore.Learn.Implement</p> -->
 
@@ -143,7 +143,7 @@
 
             <div class="nuke">
                 <div class="image" data-aos-anchor-placement="center-bottom" data-aos="fade-left">
-                    <img class="About" src="./images/group.png" alt="Image Loading" />
+                    <img class="About" src="https://noobarmy.org/vulncon/images/group.png" alt="Image Loading" />
                 </div>
                 <div class="Content" data-aos-anchor-placement="center-bottom" data-aos="fade-right">
                     <h3 class="head">VULNCON 2021</h3>
@@ -460,7 +460,7 @@
     })
     </script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script src="js/index.js"></script>
+    <script src="https://noobarmy.org/vulncon/js/index.js"></script>
 
 </body>
 
