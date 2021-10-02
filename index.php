@@ -53,7 +53,24 @@
 <html lang="en">
 
 <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180386787-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-180386787-1');
+    </script>
     <meta charset="UTF-8" />
+    <meta name="description" p content="VULNCON is a two days conference after 24 hours live CTF. The conference will include talks from various security researchers.">
+    <meta content='vulncon, vulncon 2021, CTF Events, Workshop, Ethical Hacking,noob army' name='keywords' />
+    <meta content='VULNCON | VULNCON 2021| NOOB ARMY | noobarmy' name='title' />
+    <meta content='2 days' name='revisit-after' />
+    <meta content='NOOB ARMY' name='author' />
+    <meta content='English' name='language' />
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://noobarmy.org/vulncon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
@@ -72,6 +89,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://kit.fontawesome.com/ba8127bac3.js" crossorigin="anonymous"></script>
     <script src="https://cdn.logwork.com/widget/countdown.js"></script>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="noobarmy" data-description="Support me on Buy me a coffee!" data-message="" data-color="#FFDD00" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
 
     <title>VULNCON 2021</title>
 
