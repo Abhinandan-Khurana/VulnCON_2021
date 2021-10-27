@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0;
   overflow-x: hidden;
 }
@@ -10,9 +10,9 @@ body{
   width: 100vw;
   margin: 0;
 }
-.contact_nav_block{
-height: 70px;
-width: 100vw;
+.contact_nav_block {
+  height: 70px;
+  width: 100vw;
 }
 
 input,
@@ -39,12 +39,13 @@ textarea {
   margin: 0 auto;
   max-width: 840px;
 }
+
 .contact_form {
   display: flex;
   flex-direction: column;
   min-width: 400px;
 }
-input {
+.input_field {
   width: 96.5%;
 }
 .send_btn {
@@ -74,31 +75,38 @@ input {
   color: #a7a7a7;
   padding-bottom: 5px;
 }
-.contact_social_group{
+.contact_social_group {
   height: 45%;
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
-.contact_social{
+.contact_social {
   color: #fff;
   margin: 10% 5%;
-  transition: all 500ms ;
+  transition: all 500ms;
 }
-.contact_social:hover{
+.contact_social:hover {
   transform: translateY(-10px);
 }
 
-.contact_social_instagram{
+.contact_social_instagram {
   color: #fff;
-  background:  linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
   border-radius: 10px;
 }
-.contact_social_twitter{
-  color: #1DA1F2;
+.contact_social_twitter {
+  color: #1da1f2;
   border-radius: 50%;
 }
-.contact_social_youtube{
+.contact_social_youtube {
   color: red;
 }
 
@@ -122,7 +130,31 @@ input {
 }
 
 @media screen and (max-width: 440px) {
-  .contact_form{
+  .contact_form {
     min-width: 300px;
   }
+}
+
+/* call for paper */
+.callForPaper_form {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+}
+.CFP_input_block {
+  display: flex;
+  justify-content: space-between;
+}
+.input_field_half {
+  width: 45%;
+}
+.input_field_full {
+  width: 98%;
+}
+.submit_btn {
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+  width: 30%;
+  border: 1px solid #fff;
 }

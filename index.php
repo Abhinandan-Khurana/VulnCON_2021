@@ -75,6 +75,7 @@
 
     <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
     <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/contact.css" />
+    <!-- <link rel="stylesheet" href="./css/contact.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -354,6 +355,46 @@
         document.getElementById("defaultOpen").click();
         </script>
     </section>
+
+
+    <!-- Call for Paper -->
+    <section class="contact_section" id="Contact">
+        <form method="post" action="/">
+            <div class="contact_nav_block"></div>
+            <div class="contact_header headings" data-aos-anchor-placement="center-bottom" data-aos='zoom-in'>Call for Paper
+            </div>
+            <div class="contact_form_body" style='justify-content:center;'>
+                <div class="callForPaper_form" data-aos="fade-right">
+                    <div class="CFP_input_block">
+                        <input type="text" name="name" id="name" class="input_field_half" placeholder="Full Name" required />
+                        <input type="text" name="phone" id="phone" class="input_field_half" placeholder="Phone No." required />
+                    </div>
+                    <div class="CFP_input_block">
+                        <input type="text" name="organisation" id="organisation" class="input_field_half" placeholder="Organisation" required />
+                        <input type="text" name="jobTitle" id="jobTitle" class="input_field_half" placeholder="Job Title " required />
+                    </div>
+                    <div class="CFP_input_block">
+                        <textarea type="text" name="speakerBio" id="speakerBio" class="input_field_half"  placeholder="Speaker Bio" required></textarea>
+                        <textarea type="text" name="topicTittle" id="topicTittle" class="input_field_half" placeholder="Topic Title" required ></textarea>
+                    </div>
+                    <div class="CFP_input_block">
+                        <input type="text" name="linkedin" id="linkedin" class="input_field_half" placeholder="Linkedin" required />
+                        <input type="text" name="Twitter" id="Twitter" class="input_field_half" placeholder="Twitter" required />
+                    </div>
+                        <textarea name="sessionAbstract" class='input_field_full' id="sessionAbstract" rows="4" placeholder="Session Abstract" required></textarea>
+                        <div style="width:100%;text-align:center;" >
+                            <button class="glow-on-hover submit_btn " name="submit">Submit</button>
+                        </div>
+                </div>
+            </div>
+        </form>
+    </section>
+
+
+
+
+    <!-- End Call for Paper -->
+
 
     <!-- contact form -->
     <section class="contact_section" id="Contact">
