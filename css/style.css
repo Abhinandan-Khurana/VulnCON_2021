@@ -409,6 +409,7 @@ div .head {
   font-family: "Chakra Petch", sans-serif;
   /* color: #9c1de7; */
   color: white;
+  text-decoration: none;
 }
 
 body {
@@ -423,7 +424,8 @@ body {
   background: #061014;
   margin-top: 3%;
   margin-right: 30px;
-  left:20%;
+  /* left:20%; */
+  margin-left:20%;
 }
 
 .owl-dots {
@@ -443,6 +445,13 @@ body {
 
 .owl-dot.active {
   background-color: rgb(255, 102, 0) !important;
+}
+
+.sponsor_button{
+  margin-left: 50%;
+  margin-top: 10px;;
+  height: auto;
+  width: auto;
 }
 
 /* Speaker Section */
@@ -778,5 +787,11 @@ body {
 @media screen and (max-width: 660px) {
   .footer-items {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .brand-carousel {
+    margin-left: 0%; 
   }
 }

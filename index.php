@@ -344,13 +344,13 @@
         <h1 class="sponsor-heading" data-aos="fade-up">Our Sponsors</h1>
         <div class="brand-carousel section-padding owl-carousel" data-aos="fade-right">
             <div class="single-logo">
-                <img src="./images/sponsor/burpbounty.png" alt="burpbounty">
+                <a href="www.google.com" target="_blank"><img src="./images/sponsor/burpbounty.png" alt="burpbounty"></a>
             </div>
             <div class="single-logo">
-                <img src="./images/sponsor/yeswehack.png" alt="yeswehack">
+            <a href="www.google.com" target="_blank"> <img src="./images/sponsor/yeswehack.png" alt="yeswehack"></a>
             </div>
             <div class="single-logo">
-                <img src="https://noobarmy.org/vulncon2020/img/bugcrowd.png" alt="bugcrowd">
+            <a href="www.google.com" target="_blank"> <img src="https://noobarmy.org/vulncon2020/img/bugcrowd.png" alt="bugcrowd"></a>
             </div>
             <!-- <div class="single-logo">
                 <img src="/images/nav-logo-2.png" alt="">
@@ -363,7 +363,7 @@
             </div> -->
             
         </div>
-
+        <div class="sponsor_button"><button class="glow-on-hover submit_btn " name="submit">Submit</button></div>
     </section>
 
 
