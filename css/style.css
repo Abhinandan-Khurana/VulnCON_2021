@@ -406,8 +406,9 @@ div .head {
   text-align: center;
   justify-content: center;
   font-size: 3.5em;
+  font-family: "Chakra Petch", sans-serif;
   /* color: #9c1de7; */
-  color: #ff00b3;
+  color: white;
 }
 
 body {
@@ -419,9 +420,10 @@ body {
 }
 
 .brand-carousel {
-  background: navy;
+  background: #061014;
   margin-top: 3%;
   margin-right: 30px;
+  left:20%;
 }
 
 .owl-dots {
@@ -433,14 +435,14 @@ body {
   display: inline-block;
   height: 15px !important;
   width: 15px !important;
-  background-color: #878787 !important;
+  background-color: white !important;
   opacity: 0.8;
   border-radius: 50%;
   margin: 0 5px;
 }
 
 .owl-dot.active {
-  background-color: #000 !important;
+  background-color: rgb(255, 102, 0) !important;
 }
 
 /* Speaker Section */

@@ -73,7 +73,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/contact.css" />
     <!-- <link rel="stylesheet" href="./css/contact.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -188,32 +188,7 @@
 
 
 
-    <!-- Sponsors section  -->
 
-    <!-- <section>
-        <h1 class="sponsor-heading">Our Sponsors</h1>
-        <div class="brand-carousel section-padding owl-carousel">
-            <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-        </div>
-
-    </section> -->
 
 
     <!-- Speakers Section -->
@@ -355,6 +330,48 @@
         document.getElementById("defaultOpen").click();
         </script>
     </section>
+
+
+
+
+
+
+
+
+    <!-- Sponsors section  -->
+
+    <section>
+        <h1 class="sponsor-heading" data-aos="fade-up">Our Sponsors</h1>
+        <div class="brand-carousel section-padding owl-carousel" data-aos="fade-right">
+            <div class="single-logo">
+                <img src="./images/sponsor/burpbounty.png" alt="burpbounty">
+            </div>
+            <div class="single-logo">
+                <img src="./images/sponsor/yeswehack.png" alt="yeswehack">
+            </div>
+            <div class="single-logo">
+                <img src="https://noobarmy.org/vulncon2020/img/bugcrowd.png" alt="bugcrowd">
+            </div>
+            <!-- <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div>
+            <div class="single-logo">
+                <img src="/images/nav-logo-2.png" alt="">
+            </div> -->
+            
+        </div>
+
+    </section>
+
+
+
+
+
+
+
 
 
     <!-- Call for Paper -->
@@ -502,7 +519,7 @@
     // }
 
     $('.brand-carousel').owlCarousel({
-        loop: true,
+        loop: false,
         margin: 10,
         autoplay: true,
         responsive: {
