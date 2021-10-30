@@ -128,7 +128,8 @@
     <meta property="og:url" content="https://noobarmy.org/vulncon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-
+<!-- <link rel="stylesheet" href="./css/contact.css"> -->
+<!-- <link rel="stylesheet" href="./css/style.css"> -->
     <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
     <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/contact.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -418,7 +419,7 @@
             </div> -->
             
         </div>
-        <div class="sponsor_button"><a href="mailto:hello@noobarmy.org"><button class="glow-on-hover submit_btn " name="submit">Be a Sponsor</button></a></div>
+        <div class="sponsor_button"><a href="mailto:hello@noobarmy.org"><button class="glow-on-hover submit_btn " >Be a Sponsor</button></a></div>
     </section>
 
 

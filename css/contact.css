@@ -135,7 +135,7 @@ textarea {
   padding: 5px;
   margin: 0;
   font-size: 14px;
-  width: 30%;
+  min-width: 30%;
   border: 1px solid #fff;
 }
 
