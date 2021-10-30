@@ -1,53 +1,109 @@
 <?php
-	// Message Vars
-	$msg = '';
-	$msgClass = '';
+    // Message Vars
+    $msg = '';
+    $msgClass = '';
 
-	// Check For Submit
-	if(filter_has_var(INPUT_POST, 'submit')){
-		// Get Form Data
-		$name = htmlspecialchars($_POST['name']);
-		$email = htmlspecialchars($_POST['email']);
-		$message = htmlspecialchars($_POST['message']);
+    // Check For Submit
+    if (filter_has_var(INPUT_POST, 'submit')) {
+        // Get Form Data
+        $name = htmlspecialchars($_POST['name']);
+        $email = htmlspecialchars($_POST['email']);
+        $message = htmlspecialchars($_POST['message']);
 
-		// Check Required Fields
-		if(!empty($email) && !empty($name) && !empty($message)){
-			// Passed
-			// Check Email is valid or not
-			if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-				// Failed
-				$msg = 'Please use a valid email';
-			} else {
-				// Passed
-				$toEmail = 'hello@noobarmy.org';
-				$subject = 'VULNCON 2021 Contact Request From '.$name;
-				$body = '<h2>Vulncon Contact Request</h2>
+        // Check Required Fields
+        if (!empty($email) && !empty($name) && !empty($message)) {
+            // Passed
+            // Check Email is valid or not
+            if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+                // Failed
+                $msg = 'Please use a valid email';
+            } else {
+                // Passed
+                $toEmail = 'hello@noobarmy.org';
+                $subject = 'VULNCON 2021 Contact Request From '.$name;
+                $body = '<h2>Vulncon Contact Request</h2>
 					<h4>Name</h4><p>'.$name.'</p>
 					<h4>Email</h4><p>'.$email.'</p>
 					<h4>Message</h4><p>'.$message.'</p>
 				';
 
-				// Email Headers
-				$headers = "MIME-Version: 1.0" ."\r\n";
-				$headers .="Content-Type:text/html;charset=UTF-8" . "\r\n";
+                // Email Headers
+                $headers = "MIME-Version: 1.0" ."\r\n";
+                $headers .="Content-Type:text/html;charset=UTF-8" . "\r\n";
 
-				// Additional Headers
-				$headers .= "From: " .$name.' '.$name2. "<".$email.">". "\r\n";
+                // Additional Headers
+                $headers .= "From: " .$name.' '.$name2. "<".$email.">". "\r\n";
 
-				if(mail($toEmail, $subject, $body, $headers)){
-					// Email Sent
-					$msg = 'Your message has been sent';
-				} else {
-					// Failed
-					$msg = 'Your message was not sent';
-				}
-			}
-		} else {
-			// Failed
-			$msg = 'Please fill in all fields';
-		}
+                if (mail($toEmail, $subject, $body, $headers)) {
+                    // Email Sent
+                    $msg = 'Your message has been sent';
+                } else {
+                    // Failed
+                    $msg = 'Your message was not sent';
+                }
+            }
+        } else {
+            // Failed
+            $msg = 'Please fill in all fields';
+        }
     }
+    $cfp_msg='';
+    $cfp_msgClass='';
+    if (filter_has_var(INPUT_POST, 'cfp_submit')) {
+        // Get Form Data
+        $name = htmlspecialchars($_POST['cfp_name']);
+        $email = htmlspecialchars($_POST['cfp_email']);
+        $jobTItle = htmlspecialchars($_POST['jobTitle']);
+        $organisation = htmlspecialchars($_POST['organisation']);
+        $speakerBio = htmlspecialchars($_POST['speakerBio']);
+        $topicTitle = htmlspecialchars($_POST['topicTitle']);
+        $linkedin = htmlspecialchars($_POST['linkedin']);
+        $Twitter = htmlspecialchars($_POST['Twitter']);
+        $sessionAbstract = htmlspecialchars($_POST['sessionAbstract']);
 
+        // Check Required Fields
+        if (!empty($email) && !empty($name) && !empty($jobTItle) && !empty($speakerBio) && !empty($organisation) && !empty($topicTitle) && !empty($sessionAbstract) && !empty($linkedin) && !empty($Twitter)) {
+            // Passed
+            // Check Email is valid or not
+            if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+                // Failed
+                $cfp_msg = 'Please use a valid email';
+            } else {
+                // Passed
+                $toEmail = 'hello@noobarmy.org';
+                $subject = 'VULNCON 2021 CFP From '.$name;
+                $body = '<h2>Vulncon CFP Request</h2>
+					<h4>Name</h4><p>'.$name.'</p>
+					<h4>Email</h4><p>'.$email.'</p>
+                    <h4>Job Title</h4><p>'.$jobTItle.'</p>
+                    <h4>Organisation</h4><p>'.$organisation.'</p>
+                    <h4>Speaker Bio</h4><p>'.$speakerBio.'</p>
+                    <h4>Topic Title</h4><p>'.$topicTitle.'</p>
+                    <h4>Linkedin</h4><p>'.$linkedin.'</p>
+                    <h4>Twitter</h4><p>'.$Twitter.'</p>
+					<h4>Abstract</h4><p>'.$sessionAbstract.'</p>
+				';
+
+                // Email Headers
+                $headers = "MIME-Version: 1.0" ."\r\n";
+                $headers .="Content-Type:text/html;charset=UTF-8" . "\r\n";
+
+                // Additional Headers
+                $headers .= "From: " .$name.' '.$name2. "<".$email.">". "\r\n";
+
+                if (mail($toEmail, $subject, $body, $headers)) {
+                    // Email Sent
+                    $cfp_msg = 'Your request has been submitted successfully';
+                } else {
+                    // Failed
+                    $cfp_msg = 'Your message was not sent';
+                }
+            }
+        } else {
+            // Failed
+            $cfp_msg = 'Please fill all the fields';
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -73,9 +129,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
     <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/contact.css" />
-    <!-- <link rel="stylesheet" href="./css/contact.css"> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -344,13 +399,13 @@
         <h1 class="sponsor-heading" data-aos="fade-up">Our Sponsors</h1>
         <div class="brand-carousel section-padding owl-carousel" data-aos="fade-right">
             <div class="single-logo">
-                <a href="www.google.com" target="_blank"><img src="./images/sponsor/burpbounty.png" alt="burpbounty"></a>
+                <a href="https://burpbounty.net/" target="_blank"><img src="./images/sponsor/burpbounty.png" alt="burpbounty"></a>
             </div>
             <div class="single-logo">
-            <a href="www.google.com" target="_blank"> <img src="./images/sponsor/yeswehack.png" alt="yeswehack"></a>
+            <a href="https://www.yeswehack.com/" target="_blank"> <img src="./images/sponsor/yeswehack.png" alt="yeswehack"></a>
             </div>
             <div class="single-logo">
-            <a href="www.google.com" target="_blank"> <img src="https://noobarmy.org/vulncon2020/img/bugcrowd.png" alt="bugcrowd"></a>
+            <a href="https://www.bugcrowd.com/" target="_blank"> <img src="https://noobarmy.org/vulncon2020/img/bugcrowd.png" alt="bugcrowd"></a>
             </div>
             <!-- <div class="single-logo">
                 <img src="/images/nav-logo-2.png" alt="">
@@ -363,7 +418,7 @@
             </div> -->
             
         </div>
-        <div class="sponsor_button"><button class="glow-on-hover submit_btn " name="submit">Submit</button></div>
+        <div class="sponsor_button"><a href="mailto:hello@noobarmy.org"><button class="glow-on-hover submit_btn " name="submit">Be a Sponsor</button></a></div>
     </section>
 
 
@@ -376,15 +431,15 @@
 
     <!-- Call for Paper -->
     <section class="contact_section" id="Contact">
-        <form method="post" action="/">
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
             <div class="contact_nav_block"></div>
-            <div class="contact_header headings" data-aos-anchor-placement="center-bottom" data-aos='zoom-in'>Call for Paper
+            <div class="contact_header headings" data-aos-anchor-placement="center-bottom" data-aos='zoom-in'>Call for Papers
             </div>
             <div class="contact_form_body" style='justify-content:center;'>
                 <div class="callForPaper_form" data-aos="fade-right">
                     <div class="CFP_input_block">
-                        <input type="text" name="name" id="name" class="input_field_half" placeholder="Full Name" required />
-                        <input type="text" name="phone" id="phone" class="input_field_half" placeholder="Phone No." required />
+                        <input type="text" name="cfp_name" id="name" class="input_field_half" placeholder="Full Name" required />
+                        <input type="text" name="cfp_email" id="phone" class="input_field_half" placeholder="Email" required />
                     </div>
                     <div class="CFP_input_block">
                         <input type="text" name="organisation" id="organisation" class="input_field_half" placeholder="Organisation" required />
@@ -392,7 +447,7 @@
                     </div>
                     <div class="CFP_input_block">
                         <textarea type="text" name="speakerBio" id="speakerBio" class="input_field_half"  placeholder="Speaker Bio" required></textarea>
-                        <textarea type="text" name="topicTittle" id="topicTittle" class="input_field_half" placeholder="Topic Title" required ></textarea>
+                        <textarea type="text" name="topicTitle" id="topicTittle" class="input_field_half" placeholder="Topic Title" required ></textarea>
                     </div>
                     <div class="CFP_input_block">
                         <input type="text" name="linkedin" id="linkedin" class="input_field_half" placeholder="Linkedin" required />
@@ -402,7 +457,11 @@
                         <textarea name="sessionAbstract" class='input_field_full' id="sessionAbstract" rows="4" placeholder="Session Abstract" required></textarea>
                     </div>
                         <div style="width:100%;text-align:center;" >
-                            <button class="glow-on-hover submit_btn " name="submit">Submit</button>
+                            <button class="glow-on-hover submit_btn " name="cfp_submit">Submit</button>
+                                <div id="success_fail_info"><?php if ($cfp_msg != '') : ?>
+                                    <div><?php echo $cfp_msg; ?></div>
+                                    <?php endif; ?>
+                                </div>
                         </div>
                 </div>
             </div>
