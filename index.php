@@ -398,7 +398,9 @@
                         <input type="text" name="linkedin" id="linkedin" class="input_field_half" placeholder="Linkedin" required />
                         <input type="text" name="Twitter" id="Twitter" class="input_field_half" placeholder="Twitter" required />
                     </div>
+                    <div class="CPFTextarea">
                         <textarea name="sessionAbstract" class='input_field_full' id="sessionAbstract" rows="4" placeholder="Session Abstract" required></textarea>
+                    </div>
                         <div style="width:100%;text-align:center;" >
                             <button class="glow-on-hover submit_btn " name="submit">Submit</button>
                         </div>

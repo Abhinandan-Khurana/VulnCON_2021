@@ -110,6 +110,35 @@ textarea {
   color: red;
 }
 
+/* call for paper */
+.callForPaper_form {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+}
+.CFP_input_block {
+  display: flex;
+  justify-content: space-between;
+}
+.input_field_half {
+  width: 45%;
+}
+.CPFTextarea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_field_full {
+  width: 98%;
+}
+.submit_btn {
+  padding: 5px;
+  margin: 0;
+  font-size: 14px;
+  width: 30%;
+  border: 1px solid #fff;
+}
+
 @media screen and (max-width: 850px) {
   .contact_form_body {
     flex-direction: column;
@@ -127,34 +156,24 @@ textarea {
   .fas {
     padding: 5px 2rem 0 0;
   }
+  .CFP_input_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .input_field_full {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 440px) {
   .contact_form {
     min-width: 300px;
   }
-}
-
-/* call for paper */
-.callForPaper_form {
-  display: flex;
-  flex-direction: column;
-  min-width: 600px;
-}
-.CFP_input_block {
-  display: flex;
-  justify-content: space-between;
-}
-.input_field_half {
-  width: 45%;
-}
-.input_field_full {
-  width: 98%;
-}
-.submit_btn {
-  padding: 5px;
-  margin: 0;
-  font-size: 14px;
-  width: 30%;
-  border: 1px solid #fff;
+  .callForPaper_form {
+    min-width: 100%;
+  }
+  .input_field_full,
+  .input_field_half {
+    width: 80%;
+  }
 }
