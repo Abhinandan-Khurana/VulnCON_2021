@@ -128,10 +128,10 @@
     <meta property="og:url" content="https://noobarmy.org/vulncon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-<!-- <link rel="stylesheet" href="./css/contact.css"> -->
-<!-- <link rel="stylesheet" href="./css/style.css"> -->
-    <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
-    <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/contact.css" />
+<link rel="stylesheet" href="./css/contact.css">
+<link rel="stylesheet" href="./css/style.css">
+    <!-- <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/style.css" />
+    <link rel="stylesheet" href="https://noobarmy.org/vulncon/css/contact.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -408,13 +408,13 @@
             <div class="single-logo">
             <a href="https://www.bugcrowd.com/" target="_blank"> <img src="https://noobarmy.org/vulncon2020/img/bugcrowd.png" alt="bugcrowd"></a>
             </div>
+            <div class="single-logo">
+                <img src="https://noobarmy.org/vulncon2020/img/htb.png" alt="HackTheBox">
+            </div>
+            <div class="single-logo">
+                <img src="https://noobarmy.org/vulncon2020/img/offsec.png" alt="Offensive_Security">
+            </div>
             <!-- <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-            <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div>
-            <div class="single-logo">
                 <img src="/images/nav-logo-2.png" alt="">
             </div> -->
             
@@ -581,7 +581,7 @@
     // }
 
     $('.brand-carousel').owlCarousel({
-        loop: false,
+        loop: true,
         margin: 10,
         autoplay: true,
         responsive: {
