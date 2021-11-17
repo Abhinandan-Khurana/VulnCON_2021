@@ -425,56 +425,6 @@
 
 
 
-
-
-
-
-
-    <!-- Call for Paper -->
-    <section class="contact_section" id="Contact">
-        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-            <div class="contact_nav_block"></div>
-            <div class="contact_header headings" data-aos-anchor-placement="center-bottom" data-aos='zoom-in'>Call for Papers
-            </div>
-            <div class="contact_form_body" style='justify-content:center;'>
-                <div class="callForPaper_form" data-aos="fade-right">
-                    <div class="CFP_input_block">
-                        <input type="text" name="cfp_name" id="name" class="input_field_half" placeholder="Full Name" required />
-                        <input type="text" name="cfp_email" id="phone" class="input_field_half" placeholder="Email" required />
-                    </div>
-                    <div class="CFP_input_block">
-                        <input type="text" name="organisation" id="organisation" class="input_field_half" placeholder="Organisation" required />
-                        <input type="text" name="jobTitle" id="jobTitle" class="input_field_half" placeholder="Job Title " required />
-                    </div>
-                    <div class="CFP_input_block">
-                        <textarea type="text" name="speakerBio" id="speakerBio" class="input_field_half"  placeholder="Speaker Bio" required></textarea>
-                        <textarea type="text" name="topicTitle" id="topicTittle" class="input_field_half" placeholder="Topic Title" required ></textarea>
-                    </div>
-                    <div class="CFP_input_block">
-                        <input type="text" name="linkedin" id="linkedin" class="input_field_half" placeholder="Linkedin" required />
-                        <input type="text" name="Twitter" id="Twitter" class="input_field_half" placeholder="Twitter" required />
-                    </div>
-                    <div class="CPFTextarea">
-                        <textarea name="sessionAbstract" class='input_field_full' id="sessionAbstract" rows="4" placeholder="Session Abstract" required></textarea>
-                    </div>
-                        <div style="width:100%;text-align:center;" >
-                            <button class="glow-on-hover submit_btn " name="cfp_submit">Submit</button>
-                                <div id="success_fail_info"><?php if ($cfp_msg != '') : ?>
-                                    <div><?php echo $cfp_msg; ?></div>
-                                    <?php endif; ?>
-                                </div>
-                        </div>
-                </div>
-            </div>
-        </form>
-    </section>
-
-
-
-
-    <!-- End Call for Paper -->
-
-
     <!-- contact form -->
     <section class="contact_section" id="Contact">
         <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
