@@ -409,7 +409,7 @@
             <a href="https://www.bugcrowd.com/" target="_blank"> <img src="https://noobarmy.org/vulncon2020/img/bugcrowd.png" alt="bugcrowd"></a>
             </div>
             <div class="single-logo">
-               <a href="http://hackthebox.eu/" target="_blank"><img src="https://noobarmy.org/vulncon2020/img/htb.png" alt="HackTheBox" style="height:80px; width:100%;"></a> 
+               <a href="http://hackthebox.eu/" target="_blank"><img src="https://noobarmy.org/vulncon2020/img/htb.png" alt="HackTheBox" style="height:120px; width:80%;"></a> 
             </div>
             <div class="single-logo">
             <a href="https://www.offensive-security.com/" target="_blank"> <img src="https://noobarmy.org/vulncon2020/img/offsec.png" alt="Offensive_Security"></a>
