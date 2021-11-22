@@ -317,6 +317,124 @@
                         </div>
                     </div>
                 </div>
+                
+
+
+
+
+
+
+                <div class="speaker_card " data-aos="fade-up" >
+                    <div class="speaker_imgbox">
+                        <img  src="./images/speaker/aditya.jpg" alt="Mr. Aditya">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 4</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="speaker_card " data-aos="fade-up" >
+                    <div class="speaker_imgbox">
+                        <img  src="./images/speaker/donavan.jpg" alt="Mr. Donavan">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 5</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="speaker_card " data-aos="fade-up" >
+                    <div class="speaker_imgbox">
+                        <img  src="./images/speaker/praful.jpg" alt="Mr. Praful">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 6</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="speaker_card " data-aos="fade-up" >
+                    <div class="speaker_imgbox">
+                        <img  src="./images/speaker/sagar.jpg" alt="Mr. Sagar">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 7</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="speaker_card " data-aos="fade-up" >
+                    <div class="speaker_imgbox">
+                        <img  src="./images/speaker/vansh.jpg" alt="Mr. Vansh">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 8</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
 
 
 
