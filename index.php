@@ -166,10 +166,10 @@
                         <li><a href="https://noobarmy.org/vulncon/#About">About Us</a></li>
                         <li><a href="https://noobarmy.org/vulncon/#Speakers">Speakers</a></li>
                         <li><a href="https://noobarmy.org/vulncon/#Schedule">Schedule</a></li>
-                        <li><a href="https://noobarmy.org/vulncon/#VULNCON_CTF">VULNCON CTF</a></li>
+                        <li><a href="https://ctf.noobarmy.org/">VULNCON CTF</a></li>
                         <li><a href="https://noobarmy.org/vulncon/#Contact">Contact</a></li>
                         <li><a href="https://noobarmy.org/vulncon/team.html">Team</a></li>
-                        <li><a href="#" class="glow-on-hover">Register</a></li>
+                        <li><a href="https://forms.gle/6B4RSJXzudAaRM4y9" class="glow-on-hover">Register</a></li>
                     </ul>
                     <div class="burger">
                         <div class="line1"></div>
