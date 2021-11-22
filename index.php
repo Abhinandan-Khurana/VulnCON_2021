@@ -257,15 +257,15 @@
 
 
 
-                <div class="speaker_card " data-aos="fade-up">
+                <!-- <div class="speaker_card " data-aos="fade-up">
                     <div class="speaker_imgbox">
                         <img style="height: auto; margin-top: 20%;" src="images/coming-soon.png" alt="Coming Soon">
                     </div>
-                </div>
-                <!-- 
+                </div> -->
+                
                 <div class="speaker_card " data-aos="fade-up" >
                     <div class="speaker_imgbox">
-                        <img  src="" alt="">
+                        <img  src="./images/speaker/adhokshaj.jpg" alt="Mr. Adhokshaj">
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
@@ -278,9 +278,45 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
 
+                <div class="speaker_card " data-aos="fade-up" >
+                    <div class="speaker_imgbox">
+                        <img  src="./images/speaker/aseem.jpg" alt="Mr. Aseem">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 2</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="speaker_card " data-aos="fade-up" >
+                    <div class="speaker_imgbox">
+                        <img  src="./images/speaker/youssef.jpg" alt="Mr. Youssef">
+                    </div>
+                    <div class="speaker_contentbox">
+                        <div class="speaker_content">
+                            <h3>Speaker 3</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <div class="speaker_social-media">
+                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
 
