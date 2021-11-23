@@ -269,12 +269,11 @@
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 1</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <h3>Adhokshaj Mishra</h3>
+                            <p>Security Researcher at Uptycs</p>
                             <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/adhokshajmishra" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/adhokshajmishra/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -287,12 +286,12 @@
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 2</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <h3>Aseem Shrey</h3>
+                            <p>Security Engineer at Gojek Tech</p>
                             <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/AseemShrey" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://github.com/LuD1161" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://linkedin.com/in/AseemShrey" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -307,12 +306,12 @@
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 3</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <h3>Youssef Sammouda</h3>
+                            <p>Security Researcher, Facebook Top Hacker</p>
                             <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/Samm0uda" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://github.com/samm0uda" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/ysammouda" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -326,16 +325,14 @@
 
                 <div class="speaker_card " data-aos="fade-up" >
                     <div class="speaker_imgbox">
-                        <img  src="./images/speaker/aditya.jpg" alt="Mr. Aditya">
+                        <img  src="./images/speaker/sagar.jpg" alt="Mr. Sagar">
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 4</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <h3>Sagar Patra</h3>
+                            <p>Security Analyst at TCS, Chapter Leader at OWASP Jamshedpur</p>
                             <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/sagar-patra-2aa975166/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -353,12 +350,11 @@
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 5</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <h3>Donavan Cheah</h3>
+                            <p>Senior Cybersecurity Consultant at Yet Another Company (OSCP, OSCE, OSWE, OSEP, OSWP, CRT, CRTP) and Author of the digitalworld.local series on Vulnhub</p>
                             <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.facebook.com/donavancheah" target="_blank"><i class="fab fa-facebook"></i></a>
+                                <a href="https://www.linkedin.com/in/donavan-cheah-90548977" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
@@ -376,45 +372,14 @@
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 6</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <h3>Praful Kalla</h3>
+                            <p>Consultant at KPMG</p>
                             <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/prafulkalla/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-                <div class="speaker_card " data-aos="fade-up" >
-                    <div class="speaker_imgbox">
-                        <img  src="./images/speaker/sagar.jpg" alt="Mr. Sagar">
-                    </div>
-                    <div class="speaker_contentbox">
-                        <div class="speaker_content">
-                            <h3>Speaker 7</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
-                            <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-
 
                 <div class="speaker_card " data-aos="fade-up" >
                     <div class="speaker_imgbox">
@@ -422,21 +387,15 @@
                     </div>
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
-                            <h3>Speaker 8</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui tempore ipsum ad sint perferendis a. Saepe velit dolore vero nam?</p>
+                            <h3>Vansh Devgan</h3>
+                            <p>Synack Red Teamer</p>
                             <div class="speaker_social-media">
-                                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-                                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/Th3Pr0xyB0y" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.linkedin.com/in/vanshdevgan/" target="_blank"><i class="fab fa-linkedin"></i></a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
 
 
 
