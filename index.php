@@ -450,41 +450,41 @@
         <div id="Schedule" style="height: 40px;"></div>
         <div class="scheduleheading">
             <h1 class="headings" data-aos-anchor-placement="center-bottom" data-aos='zoom-in'>SCHEDULE PLAN</h1>
-            <span class="span_time">OUR TIMETABLE</span>
+            <span class="span_time">OUR FIXTURES</span>
         </div>
         <div class="tabsbtn">
+            <button class="tablink" onclick="openPage('day1', this, '#009bfd')" id="defaultOpen"> <h3>SATURDAY</h3> <p>December 04, 2021</p> </button>
             <!-- <button class="tablink" onclick="openPage('day1', this, '#009bfd')" id="defaultOpen"> <h3>SATURDAY</h3> <p>December 04, 2021</p> </button> -->
-            <!-- <button class="tablink" onclick="openPage('day1', this, '#009bfd')" id="defaultOpen"> <h3>SATURDAY</h3> <p>December 04, 2021</p> </button> -->
-            <!-- <button class="tablink" onclick="openPage('day2', this, '#009bfd')" > <h3>SATURDAY</h3> <p>December 05, 2021</p></button> -->
-            <!-- <button class="tablink" onclick="openPage('day3', this, '#009bfd')"> <h3>SATURDAY</h3> <p>December 06, 2021</p></button> -->
-            <!-- <button class="tablink" onclick="openPage('day4', this, '#009bfd')"> <h3>SATURDAY</h3> <p>December 07, 2021</p></button> -->
+            <button class="tablink" onclick="openPage('day2', this, '#009bfd')" > <h3>SUNDAY</h3> <p>December 05, 2021</p></button>
+            <button class="tablink" onclick="openPage('day3', this, '#009bfd')"> <h3>MONDAY</h3> <p>December 06, 2021</p></button>
+            <button class="tablink" onclick="openPage('day4', this, '#009bfd')"> <h3>TUESDAY</h3> <p>December 07, 2021</p></button>
         </div>
         <div id="day1" class="tabcontent">
 
-            <div class="innercontents" style="width: 100%;">
+            <!-- <div class="innercontents" style="width: 100%;">
                 <div>
                     <img src="./images/coming-soon.png" style="margin-left: 20px;" height="auto" width="130px" alt="">
                 </div>
                 <h3>VULNCON 2021</h3>
-            </div>
+            </div> -->
 
-            <!-- <div class="innercontents">
+            <div class="innercontents">
            <div>
                <img src="./images/nav-logo-2.png" style="margin-left: 20px;" height="30px" width="130px" alt="">
-               <h3>VulnCon CTF Starts</h3>
+               <h3>VULNCON CTF Starts</h3>
            </div>
            <div>
             <span><i class="fas fa-clock"> 4 PM IST</i></span>
-            </div> -->
+            </div>
         </div>
         </div>
 
-        <!-- <div id="day2" class="tabcontent">
+        <div id="day2" class="tabcontent">
 
         <div class="innercontents">
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 20px;" height="30px" width="130px" alt="">
-                <h3>VulnCon CTF Ends</h3>
+                <h3>VULNCON CTF Ends</h3>
             </div>
             <div>
                 <span><i class="fas fa-clock"> 4 PM IST</i></span>
@@ -497,13 +497,55 @@
          <div class="innercontents">
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
-                <h3>How to Crush Bounties in 2021?</h3>
-                <h5>by Rohit Gautam / Security Researcher</h5>
+                <h3>Getting Started with Android<br> Pentesting </h3>
+                <h5>by Aseem Shrey / Security Engineer<br>at Gojek Tech</h5>
             </div>
             <div>
-                <span><i class="fas fa-clock"> 4 PM IST</i></span>
+                <span><i class="fas fa-clock"> 6 PM IST</i></span>
              </div>
          </div>
+
+
+         <div class="innercontents">
+            <div>
+                <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
+                <h3>Hunting for uncommon bugs<br> in Client Side Applications </h3>
+                <h5>by Youssef Sammouda / Security Researcher</h5>
+            </div>
+            <div>
+                <span><i class="fas fa-clock"> 7 PM IST</i></span>
+             </div>
+         </div>
+
+
+
+         <div class="innercontents">
+            <div>
+                <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
+                <h3>The Art of Anti-Debugging </h3>
+                <h5>by Adhokshaj Mishra / Security Researcher<br> - Malware - Linux</h5>
+            </div>
+            <div>
+                <span><i class="fas fa-clock"> 8 PM IST</i></span>
+             </div>
+         </div>
+
+
+
+
+         <div class="innercontents">
+            <div>
+                <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
+                <h3>Title</h3>
+                <h5>by Vansh Devgan / Synack Red Teamer</h5>
+            </div>
+            <div>
+                <span><i class="fas fa-clock"> 9 PM IST</i></span>
+             </div>
+         </div>
+
+
+
 
       </div>
       
@@ -512,15 +554,42 @@
         <div class="innercontents">
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
-                <h3>How to Crush Bounties in 2021?</h3>
-                <h5>by Rohit Gautam / Security Researcher</h5>
+                <h3>Basics of AV Evasion</h3>
+                <h5>by Donavan Cheah / Senior Cybersecurity<br> Consultant at Yet Another Company </h5>
             </div>
             <div>
-                <span><i class="fas fa-clock"> 4 PM IST</i></span>
+                <span><i class="fas fa-clock"> 6 PM IST</i></span>
              </div>
          </div>
 
-        </div> -->
+
+
+         <div class="innercontents">
+            <div>
+                <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
+                <h3>Scada Security </h3>
+                <h5>by Praful Kalla / Consultant at KPMG </h5>
+            </div>
+            <div>
+                <span><i class="fas fa-clock"> 7 PM IST</i></span>
+             </div>
+         </div>
+
+
+
+
+         <div class="innercontents">
+            <div>
+                <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
+                <h3>Hacking into Cloud</h3>
+                <h5>by Sagar Patra / Security analyst at TCS </h5>
+            </div>
+            <div>
+                <span><i class="fas fa-clock"> 8 PM IST</i></span>
+             </div>
+         </div>
+
+        </div>
         <script>
         function openPage(pageName, elmnt, color) {
             var i, tabcontent, tablinks;
