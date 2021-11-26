@@ -454,6 +454,9 @@
       <div id="day3" class="tabcontent">
        
          <div class="innercontents">
+             <div>
+                 <img src="./images/speaker/aseem.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+             </div>
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>Getting Started with Android<br> Pentesting </h3>
@@ -466,6 +469,9 @@
 
 
          <div class="innercontents">
+            <div>
+                <img src="./images/speaker/youssef.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+            </div>
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>Hunting for uncommon bugs<br> in Client Side Applications </h3>
@@ -480,6 +486,9 @@
 
          <div class="innercontents">
             <div>
+                <img src="./images/speaker/adhokshaj.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+            </div>
+            <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>The Art of Anti-Debugging </h3>
                 <h5>by Adhokshaj Mishra / Security Researcher<br> - Malware - Linux</h5>
@@ -493,6 +502,9 @@
 
 
          <div class="innercontents">
+            <div>
+                <img src="./images/speaker/vansh.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+            </div>
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>Title</h3>
@@ -512,6 +524,9 @@
 
         <div class="innercontents">
             <div>
+                <img src="./images/speaker/donavan.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+            </div>
+            <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>Basics of AV Evasion</h3>
                 <h5>by Donavan Cheah / Senior Cybersecurity<br> Consultant at Yet Another Company </h5>
@@ -524,6 +539,9 @@
 
 
          <div class="innercontents">
+            <div>
+                <img src="./images/speaker/praful.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+            </div>
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>Scada Security </h3>
@@ -538,6 +556,9 @@
 
 
          <div class="innercontents">
+            <div>
+                <img src="./images/speaker/sagar.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+            </div>
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>Hacking into Cloud</h3>
