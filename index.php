@@ -415,8 +415,8 @@
             <button class="tablink" onclick="openPage('day1', this, '#009bfd')" id="defaultOpen"> <h3>SATURDAY</h3> <p>December 04, 2021</p> </button>
             <!-- <button class="tablink" onclick="openPage('day1', this, '#009bfd')" id="defaultOpen"> <h3>SATURDAY</h3> <p>December 04, 2021</p> </button> -->
             <button class="tablink" onclick="openPage('day2', this, '#009bfd')" > <h3>SUNDAY</h3> <p>December 05, 2021</p></button>
-            <button class="tablink" onclick="openPage('day3', this, '#009bfd')"> <h3>MONDAY</h3> <p>December 06, 2021</p></button>
-            <button class="tablink" onclick="openPage('day4', this, '#009bfd')"> <h3>TUESDAY</h3> <p>December 07, 2021</p></button>
+            <button class="tablink" onclick="openPage('day3', this, '#009bfd')"> <h3>TUESDAY</h3> <p>December 07, 2021</p></button>
+            <button class="tablink" onclick="openPage('day4', this, '#009bfd')"> <h3>WEDNESDAY</h3> <p>December 08, 2021</p></button>
         </div>
         <div id="day1" class="tabcontent">
 
