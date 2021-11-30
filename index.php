@@ -500,24 +500,6 @@
 
 
 
-
-         <div class="innercontents">
-            <div>
-                <img src="./images/speaker/vansh.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
-            </div>
-            <div>
-                <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
-                <h3>Title</h3>
-                <h5>by Vansh Devgan / Synack Red Teamer</h5>
-            </div>
-            <div>
-                <span><i class="fas fa-clock"> 9 PM IST</i></span>
-             </div>
-         </div>
-
-
-
-
       </div>
       
       <div id="day4" class="tabcontent">
@@ -553,7 +535,21 @@
          </div>
 
 
-
+ 
+ 
+        <div class="innercontents">
+            <div>
+                <img src="./images/speaker/vansh.jpg" height="110px" style="border-radius: 50%;" width="110px" alt="speaker-image">
+            </div>
+            <div>
+                <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
+                <h3>Title</h3>
+                <h5>by Vansh Devgan / Synack Red Teamer</h5>
+            </div>
+            <div>
+                <span><i class="fas fa-clock"> 8 PM IST</i></span>
+             </div>
+         </div>
 
          <div class="innercontents">
             <div>
@@ -565,7 +561,7 @@
                 <h5>by Sagar Patra / Security analyst at TCS </h5>
             </div>
             <div>
-                <span><i class="fas fa-clock"> 8 PM IST</i></span>
+                <span><i class="fas fa-clock"> 9 PM IST</i></span>
              </div>
          </div>
 
