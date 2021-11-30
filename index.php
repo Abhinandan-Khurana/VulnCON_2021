@@ -351,7 +351,7 @@
                     <div class="speaker_contentbox">
                         <div class="speaker_content">
                             <h3>Donavan Cheah</h3>
-                            <p>Senior Cybersecurity Consultant at Yet Another Company (OSCP, OSCE, OSWE, OSEP, OSWP, CRT, CRTP) and Author of the digitalworld.local series on Vulnhub</p>
+                            <p>Senior Cybersecurity Consultant(OSCP, OSCE, OSWE, OSEP, OSWP, CRT, CRTP) and Author of the digitalworld.local series on Vulnhub</p>
                             <div class="speaker_social-media">
                                 <a href="https://www.facebook.com/donavancheah" target="_blank"><i class="fab fa-facebook"></i></a>
                                 <a href="https://www.linkedin.com/in/donavan-cheah-90548977" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -511,7 +511,7 @@
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
                 <h3>Basics of AV Evasion</h3>
-                <h5>by Donavan Cheah / Senior Cybersecurity<br> Consultant at Yet Another Company </h5>
+                <h5>by Donavan Cheah / Senior Cybersecurity Consultant </h5>
             </div>
             <div>
                 <span><i class="fas fa-clock"> 6 PM IST</i></span>
