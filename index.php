@@ -617,10 +617,10 @@
                 <a href="https://www.hackerone.com/" target="_blank"><img src="https://noobarmy.org/vulncon2020/img/hackerone.png" alt="Hackerone"></a>
             </div>
             <div class="single-logo">
-                <a href="https://cyberxplore.com/" target="_blank"><img src="./team/redacted.jpg" alt="Cyberxplore"></a>
+                <a href="https://edu.cyberxplore.com/" target="_blank"><img src="./images/sponsor/cyberxplore.png" alt="Cyberxplore"></a>
             </div>
             <div class="single-logo">
-                <a href="to be updated" target="_blank"><img src="./team/redacted.jpg" alt="to be updated"></a>
+                <a href="https://www.digitalocean.com/" target="_blank"><img src="./images/sponsor/do.png" alt="DigitalOcean"></a>
             </div>
             
         </div>
