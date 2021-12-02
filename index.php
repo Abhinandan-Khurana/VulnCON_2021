@@ -613,9 +613,15 @@
             <div class="single-logo">
             <a href="https://www.offensive-security.com/" target="_blank"> <img src="https://noobarmy.org/vulncon2020/img/offsec.png" alt="Offensive_Security"></a>
             </div>
-            <!-- <div class="single-logo">
-                <img src="/images/nav-logo-2.png" alt="">
-            </div> -->
+            <div class="single-logo">
+                <a href="https://www.hackerone.com/" target="_blank"><img src="https://noobarmy.org/vulncon2020/img/hackerone.png" alt="Hackerone"></a>
+            </div>
+            <div class="single-logo">
+                <a href="https://cyberxplore.com/" target="_blank"><img src="./team/redacted.jpg" alt="Cyberxplore"></a>
+            </div>
+            <div class="single-logo">
+                <a href="to be updated" target="_blank"><img src="./team/redacted.jpg" alt="to be updated"></a>
+            </div>
             
         </div>
         <div class="sponsor_button"><a href="mailto:hello@noobarmy.org"><button class="glow-on-hover submit_btn " >Be a Sponsor</button></a></div>
