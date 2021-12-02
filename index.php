@@ -543,7 +543,7 @@
             </div>
             <div>
                 <img src="./images/nav-logo-2.png" style="margin-left: 0px;" height="30px" width="130px" alt="">
-                <h3>Power Of Automation & Data In Cyber Security</h3>
+                <h3>Power Of Automation &<br>Data In Cyber Security</h3>
                 <h5>by Vansh Devgan / Synack Red Teamer</h5>
             </div>
             <div>
